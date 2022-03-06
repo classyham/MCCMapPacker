@@ -1,0 +1,1116 @@
+{
+  "ReachMaps": [
+    {
+      "MapNameUI": "Sword Base",
+      "MapFileName": "20_sword_slayer.map",
+      "MapHash": "8D3C2BCA8DB483F0E1160F05B8FEF1E1"
+    },
+    {
+      "MapNameUI": "Powerhouse",
+      "MapFileName": "30_settlement.map",
+      "MapHash": "C241546670B4078449953AC29CF24FE7"
+    },
+    {
+      "MapNameUI": "Spire",
+      "MapFileName": "35_island.map",
+      "MapHash": "EA695B06D8297EA1FDDD9714232E0026"
+    },
+    {
+      "MapNameUI": "Zealot",
+      "MapFileName": "45_aftship.map",
+      "MapHash": "13348950202B1E04F5AA84E3DBD04FE4"
+    },
+    {
+      "MapNameUI": "Countdown",
+      "MapFileName": "45_launch_station.map",
+      "MapHash": "25C91034DE77F03B79DC3E436C648B60"
+    },
+    {
+      "MapNameUI": "Boardwalk",
+      "MapFileName": "50_panopticon.map",
+      "MapHash": "66D58B17CD0B02B9851401B9FEA9A9B0"
+    },
+    {
+      "MapNameUI": "Reflection",
+      "MapFileName": "52_ivory_tower.map",
+      "MapHash": "66FD321E10DE73B67989C3E4275812D9"
+    },
+    {
+      "MapNameUI": "Boneyard",
+      "MapFileName": "70_boneyard.map",
+      "MapHash": "3CBE0E337AC63DC8ABCFA90B224C7BB1"
+    },
+    {
+      "MapNameUI": "Battle Canyon",
+      "MapFileName": "cex_beaver_creek.map",
+      "MapHash": "CD256CD666B474D754C6707BBAEF74F2"
+    },
+    {
+      "MapNameUI": "Penance",
+      "MapFileName": "cex_damnation.map",
+      "MapHash": "67FB6A1C64ECE0562E0CC8D60BE25375"
+    },
+    {
+      "MapNameUI": "Installation 04",
+      "MapFileName": "cex_ff_halo.map",
+      "MapHash": "97B1FB7524E5D17D54410A5B5C2E385D"
+    },
+    {
+      "MapNameUI": "High Noon",
+      "MapFileName": "cex_hangemhigh.map",
+      "MapHash": "58D2AE829C0FF02AD5E95A981FB80EBF"
+    },
+    {
+      "MapNameUI": "Breakneck",
+      "MapFileName": "cex_headlong.map",
+      "MapHash": "5DDAC1B16EC77AC5CB953A11AF61AFF0"
+    },
+    {
+      "MapNameUI": "Solitary",
+      "MapFileName": "cex_prisoner.map",
+      "MapHash": "65FDCD9DEEC1DE9991656ACACA6C5BC8"
+    },
+    {
+      "MapNameUI": "Ridgeline",
+      "MapFileName": "cex_timberland.map",
+      "MapHash": "C2F8BBF89871BFA55C5D321C9E7A4C6C"
+    },
+    {
+      "MapNameUI": "Condemned",
+      "MapFileName": "condemned.map",
+      "MapHash": "CA97DD694F85DE9593A2E76E0F92930D"
+    },
+    {
+      "MapNameUI": "Breakpoint",
+      "MapFileName": "dlc_invasion.map",
+      "MapHash": "0DAA891C8F57A63AEAA4723F583F5B3A"
+    },
+    {
+      "MapNameUI": "Tempest",
+      "MapFileName": "dlc_medium.map",
+      "MapHash": "DA8FCE79C1A9CEA898E5F37711144FF5"
+    },
+    {
+      "MapNameUI": "Anchor 9",
+      "MapFileName": "dlc_slayer.map",
+      "MapHash": "B6D17F0F95CB17EC3E37A410B441EBFB"
+    },
+    {
+      "MapNameUI": "Overlook",
+      "MapFileName": "ff10_prototype.map",
+      "MapHash": "5447B36AE620B034C2CCFCB022AB4628"
+    },
+    {
+      "MapNameUI": "Courtyard",
+      "MapFileName": "ff20_courtyard.map",
+      "MapHash": "6BE89F2545F2E199069557EAA5680570"
+    },
+    {
+      "MapNameUI": "Waterfront",
+      "MapFileName": "ff30_waterfront.map",
+      "MapHash": "B207FCF21DC24A7D96C08F9935B56F06"
+    },
+    {
+      "MapNameUI": "Corvette",
+      "MapFileName": "ff45_corvette.map",
+      "MapHash": "45F5AC2562AB667445ACD50DFB6BAEF9"
+    },
+    {
+      "MapNameUI": "Beachhead",
+      "MapFileName": "ff50_park.map",
+      "MapHash": "2798479B451737AA5DAB137809024CA4"
+    },
+    {
+      "MapNameUI": "Outpost",
+      "MapFileName": "ff60_airview.map",
+      "MapHash": "24735F977A98FD2F1686AD61C4894577"
+    },
+    {
+      "MapNameUI": "Glacier",
+      "MapFileName": "ff60_icecave.map",
+      "MapHash": "E9D97A0DA29C8E0108A1B6F2A63169FB"
+    },
+    {
+      "MapNameUI": "Holdout",
+      "MapFileName": "ff70_holdout.map",
+      "MapHash": "AD1F87189818C305DC23858027ECF8BC"
+    },
+    {
+      "MapNameUI": "Unearthed",
+      "MapFileName": "ff_unearthed.map",
+      "MapHash": "60F3C296C955A598C3E5BFF31F0464F5"
+    },
+    {
+      "MapNameUI": "Forge World",
+      "MapFileName": "forge_halo.map",
+      "MapHash": "BC161E19E156741D29E398A65469A480"
+    },
+    {
+      "MapNameUI": "NOBLE Actual",
+      "MapFileName": "m05.map",
+      "MapHash": "7AA21512794B8768F93DB5EA52706724"
+    },
+    {
+      "MapNameUI": "Winter Contingency",
+      "MapFileName": "m10.map",
+      "MapHash": "37102B1CAC8510BF76B564BBA31BB2B5"
+    },
+    {
+      "MapNameUI": "ONI Sword Base",
+      "MapFileName": "m20.map",
+      "MapHash": "944D1747FBB1BEAC80D8BF2991FE5045"
+    },
+    {
+      "MapNameUI": "Nightfall",
+      "MapFileName": "m30.map",
+      "MapHash": "D2DA11E619744F244D3D31A964E83C85"
+    },
+    {
+      "MapNameUI": "Tip of the Spear",
+      "MapFileName": "m35.map",
+      "MapHash": "51D30A78A723E0E5AA3015317A09D6CC"
+    },
+    {
+      "MapNameUI": "Long Night of Solace",
+      "MapFileName": "m45.map",
+      "MapHash": "9134D2DD585BD1C4C9DEBD503E699BC6"
+    },
+    {
+      "MapNameUI": "Exodus",
+      "MapFileName": "m50.map",
+      "MapHash": "FB4DB3AD46EBF056AF10E88CA8BBFACB"
+    },
+    {
+      "MapNameUI": "New Alexandria",
+      "MapFileName": "m52.map",
+      "MapHash": "7DBA03CCEABCEDFAC9FA984B625A9284"
+    },
+    {
+      "MapNameUI": "The Package",
+      "MapFileName": "m60.map",
+      "MapHash": "E2E1D03BB0B737D4C9DA9288803E1ED5"
+    },
+    {
+      "MapNameUI": "The Pillar of Autumn",
+      "MapFileName": "m70.map",
+      "MapHash": "09B9229D6E3C14A35A7C845394B93B7C"
+    },
+    {
+      "MapNameUI": "Credits",
+      "MapFileName": "m70_a.map",
+      "MapHash": "501B7E213D4C0DCD73692D3892F5363F"
+    },
+    {
+      "MapNameUI": "Lone Wolf",
+      "MapFileName": "m70_bonus.map",
+      "MapHash": "ADB791FA32734577149A737A8C0C2D3C"
+    },
+    {
+      "MapNameUI": "Highlands",
+      "MapFileName": "trainingpreserve.map",
+      "MapHash": "40BC21019E8662E7444D62270052D6A3"
+    }
+  ],
+  "CEMaps": [
+    {
+      "MapNameUI": "Pillar of Autumn",
+      "MapFileName": "a10.map",
+      "MapHash": "7D9C2E7DEDC1759753B632914F7D96B9"
+    },
+    {
+      "MapNameUI": "Halo",
+      "MapFileName": "a30.map",
+      "MapHash": "B4BF8C29B26B6C4455714396B306FF75"
+    },
+    {
+      "MapNameUI": "Truth and Reconciliation",
+      "MapFileName": "a50.map",
+      "MapHash": "80FB5E49D9DC1D0D18BFBCEDA70F3215"
+    },
+    {
+      "MapNameUI": "The Silent Cartographer",
+      "MapFileName": "b30.map",
+      "MapHash": "09DC7903A5E45F00E6003C71673DD876"
+    },
+    {
+      "MapNameUI": "Assault on the Control Room",
+      "MapFileName": "b40.map",
+      "MapHash": "8E08A8FD20FF86560B4F620B16BA7054"
+    },
+    {
+      "MapNameUI": "Beaver Creek",
+      "MapFileName": "beavercreek.map",
+      "MapHash": "CD2F4561E6E3E07E101F00B219B70682"
+    },
+    {
+      "MapNameUI": "Blood Gulch",
+      "MapFileName": "bloodgulch.map",
+      "MapHash": "EBB3CE617E7DD8CBF1477EF122D58CF8"
+    },
+    {
+      "MapNameUI": "Boarding Action",
+      "MapFileName": "boardingaction.map",
+      "MapHash": "6A5E9EBF40CC8463595FC3BB687CCDD1"
+    },
+    {
+      "MapNameUI": "343 Guilty Spark",
+      "MapFileName": "c10.map",
+      "MapHash": "774DDA4760A0DFEA66664A212FC66A01"
+    },
+    {
+      "MapNameUI": "The Library",
+      "MapFileName": "c20.map",
+      "MapHash": "4AB27B26A9807B799D6CB8747DBA83DC"
+    },
+    {
+      "MapNameUI": "Two Betrayals",
+      "MapFileName": "c40.map",
+      "MapHash": "A08D5EB8B307AC2869CA9585E1EE7BF8"
+    },
+    {
+      "MapNameUI": "Derelict",
+      "MapFileName": "carousel.map",
+      "MapHash": "9E29986DFAD4CFB16DDE244D743DC9D2"
+    },
+    {
+      "MapNameUI": "Chill Out",
+      "MapFileName": "chillout.map",
+      "MapHash": "29447A3DA7E9614D94C47436C591966C"
+    },
+    {
+      "MapNameUI": "Keyes",
+      "MapFileName": "d20.map",
+      "MapHash": "AB67DA77A7CC2BED78D99BD3A5BC0A9C"
+    },
+    {
+      "MapNameUI": "The Maw",
+      "MapFileName": "d40.map",
+      "MapHash": "A4AA4C84E51E8F86D4180D5AEB81B8A3"
+    },
+    {
+      "MapNameUI": "Damnation",
+      "MapFileName": "damnation.map",
+      "MapHash": "3C0A613001A797A220794507AF15D2B3"
+    },
+    {
+      "MapNameUI": "Danger Canyon",
+      "MapFileName": "dangercanyon.map",
+      "MapHash": "5B4546143DF549BA3C4819C74A84BE18"
+    },
+    {
+      "MapNameUI": "Death Island",
+      "MapFileName": "deathisland.map",
+      "MapHash": "E7BC7AAB21872C2672A4FEBA7F1CA061"
+    },
+    {
+      "MapNameUI": "Gephyrophobia",
+      "MapFileName": "gephyrophobia.map",
+      "MapHash": "371CB9AC9778056B14334C4A1C4C0407"
+    },
+    {
+      "MapNameUI": "Hang 'em High",
+      "MapFileName": "hangemhigh.map",
+      "MapHash": "D70C273AEAC8AB3B8005A53E949B7BBD"
+    },
+    {
+      "MapNameUI": "Ice Fields",
+      "MapFileName": "icefields.map",
+      "MapHash": "C2B25E8F3AED783B3BD76C3CCF265A03"
+    },
+    {
+      "MapNameUI": "Infinity",
+      "MapFileName": "infinity.map",
+      "MapHash": "A080B03849018F3832E35C96452621C3"
+    },
+    {
+      "MapNameUI": "Longest",
+      "MapFileName": "longest.map",
+      "MapHash": "9D885F18DEA4730FF703CAE34644FA55"
+    },
+    {
+      "MapNameUI": "Prisoner",
+      "MapFileName": "prisoner.map",
+      "MapHash": "127BF47AD508ABC89BAF75E2E5696A45"
+    },
+    {
+      "MapNameUI": "Chiron TL34",
+      "MapFileName": "putput.map",
+      "MapHash": "5B54DCA152285F2EE103C845EB6FA693"
+    },
+    {
+      "MapNameUI": "Rat Race",
+      "MapFileName": "ratrace.map",
+      "MapHash": "DD812048A15711E1A5EE2BD9984BA1B4"
+    },
+    {
+      "MapNameUI": "Sidewinder",
+      "MapFileName": "sidewinder.map",
+      "MapHash": "FFCA340D27E9138C333CFD0DB875EACA"
+    },
+    {
+      "MapNameUI": "Timberland",
+      "MapFileName": "timberland.map",
+      "MapHash": "9D95E4BB10D0E09E425CA00077AD4829"
+    },
+    {
+      "MapNameUI": "Wizard",
+      "MapFileName": "wizard.map",
+      "MapHash": "1103E64F69A5C67DA722915521B6FEF7"
+    }
+  ],
+  "H2CMaps": [
+    {
+      "MapNameUI": "The Heretic",
+      "MapFileName": "00a_introduction.map",
+      "MapHash": "085FCBB153233D2D9C87932D3673CEEC"
+    },
+    {
+      "MapNameUI": "The Armory",
+      "MapFileName": "01a_tutorial.map",
+      "MapHash": "AA378FD72A7E32FD16A7BDD9AB034621"
+    },
+    {
+      "MapNameUI": "Cairo Station",
+      "MapFileName": "01b_spacestation.map",
+      "MapHash": "218F36F7CD7E7F47B6A157CBC897CB9A"
+    },
+    {
+      "MapNameUI": "Outskirts",
+      "MapFileName": "03a_oldmombasa.map",
+      "MapHash": "03F2E357CF6AA0E081AEE5B7FB6A6838"
+    },
+    {
+      "MapNameUI": "Metroplis",
+      "MapFileName": "03b_newmombasa.map",
+      "MapHash": "0DBD3BE5F958C1E4F6870F9E4C5B2AEA"
+    },
+    {
+      "MapNameUI": "The Arbiter",
+      "MapFileName": "04a_gasgiant.map",
+      "MapHash": "624FD639011DA7301026DEA433669108"
+    },
+    {
+      "MapNameUI": "The Oracle",
+      "MapFileName": "04b_floodlab.map",
+      "MapHash": "B6C3FD33F667D0C109E7DF59A237F918"
+    },
+    {
+      "MapNameUI": "Delta Halo",
+      "MapFileName": "05a_deltaapproach.map",
+      "MapHash": "F40D465E7D2F822452AC9B5CE0CD2C92"
+    },
+    {
+      "MapNameUI": "Regret",
+      "MapFileName": "05b_deltatowers.map",
+      "MapHash": "A562F1D990D5A4E8A93A0947293659C0"
+    },
+    {
+      "MapNameUI": "Sacred Icon",
+      "MapFileName": "06a_sentinelwalls.map",
+      "MapHash": "8519C6D97744143797F34D11CE50ED6A"
+    },
+    {
+      "MapNameUI": "Quaratine Zone",
+      "MapFileName": "06b_floodzone.map",
+      "MapHash": "0B0250170E11E0FF3395E960052CA965"
+    },
+    {
+      "MapNameUI": "Gravemind",
+      "MapFileName": "07a_highcharity.map",
+      "MapHash": "3382F36806A5DE65D04170E6BE010FA8"
+    },
+    {
+      "MapNameUI": "Uprising",
+      "MapFileName": "07b_forerunnership.map",
+      "MapHash": "0709819D3CF6708823A25B9C4CC5E52A"
+    },
+    {
+      "MapNameUI": "High Charity",
+      "MapFileName": "08a_deltacliffs.map",
+      "MapHash": "EC6BAF9C7EFB913FB025A4A7D955D10D"
+    },
+    {
+      "MapNameUI": "The Great Journey",
+      "MapFileName": "08b_deltacontrol.map",
+      "MapHash": "32C1EF11D0313B2D5DBE584E0711BF04"
+    },
+    {
+      "MapNameUI": "Ascension",
+      "MapFileName": "ascension.map",
+      "MapHash": "5B9396AD99546E5719E49524788C2354"
+    },
+    {
+      "MapNameUI": "Backwash",
+      "MapFileName": "backwash.map",
+      "MapHash": "16B913CA977C5E5C3143DDFD6A994F5F"
+    },
+    {
+      "MapNameUI": "Beaver Creek",
+      "MapFileName": "beavercreek.map",
+      "MapHash": "ACE0C14A0E359A352F42486355E3BB76"
+    },
+    {
+      "MapNameUI": "Burial Mounds",
+      "MapFileName": "burial_mounds.map",
+      "MapHash": "6AD2567830AD593B38C6F10BA9A1A245"
+    },
+    {
+      "MapNameUI": "Coagulation",
+      "MapFileName": "coagulation.map",
+      "MapHash": "8BF3DB11D05A00B18571800AAE44DC6C"
+    },
+    {
+      "MapNameUI": "Colossus",
+      "MapFileName": "colossus.map",
+      "MapHash": "6111F629EA19C43266D09530BB197243"
+    },
+    {
+      "MapNameUI": "Containment",
+      "MapFileName": "containment.map",
+      "MapHash": "F7031C0239193AA6E637741D7E8C3DBF"
+    },
+    {
+      "MapNameUI": "Ivory Tower",
+      "MapFileName": "cyclotron.map",
+      "MapHash": "B8381CC2771C987E3BA573521BC109B4"
+    },
+    {
+      "MapNameUI": "Sanctuary",
+      "MapFileName": "deltatap.map",
+      "MapHash": "14A0E85F11B75FE2AFE1484DAE351C1B"
+    },
+    {
+      "MapNameUI": "Desolation",
+      "MapFileName": "derelict.map",
+      "MapHash": "E7CBEDAE8031246FB0009B398BBD003A"
+    },
+    {
+      "MapNameUI": "Relic",
+      "MapFileName": "dune.map",
+      "MapHash": "AD269DBA05A9FFC7AFE919D47A3938A9"
+    },
+    {
+      "MapNameUI": "Elongation",
+      "MapFileName": "elongation.map",
+      "MapHash": "D2DC06329A76D2559DA063DC8B206457"
+    },
+    {
+      "MapNameUI": "Foundation",
+      "MapFileName": "foundation.map",
+      "MapHash": "C6BA3C671838F4384AECD0E4D1962150"
+    },
+    {
+      "MapNameUI": "Gemini",
+      "MapFileName": "gemini.map",
+      "MapHash": "1B3D8C9C0D2EF53D70312664C19D2A5D"
+    },
+    {
+      "MapNameUI": "Headlong",
+      "MapFileName": "headlong.map",
+      "MapHash": "D4EE02BBD8DCD3E5F9E194A6F9B4D38B"
+    },
+    {
+      "MapNameUI": "Tombstone",
+      "MapFileName": "highplains.map",
+      "MapHash": "0425AE8A4259258797EDA40340F9B5A1"
+    },
+    {
+      "MapNameUI": "Lockout",
+      "MapFileName": "lockout.map",
+      "MapHash": "21668F975F04C4375D5F520F00B24D04"
+    },
+    {
+      "MapNameUI": "Midship",
+      "MapFileName": "midship.map",
+      "MapHash": "14463360F4593E991D3CC4694BBF4667"
+    },
+    {
+      "MapNameUI": "Uplift",
+      "MapFileName": "needle.map",
+      "MapHash": "D03ED729213F2D1C44FED8E0590252C4"
+    },
+    {
+      "MapNameUI": "District",
+      "MapFileName": "street_sweeper.map",
+      "MapHash": "0DE0317D27FA1E8E3B27D36D9B7A2831"
+    },
+    {
+      "MapNameUI": "Terminal",
+      "MapFileName": "triplicate.map",
+      "MapHash": "9E253EEA11EDC36B216F92917EA1505A"
+    },
+    {
+      "MapNameUI": "Turf",
+      "MapFileName": "turf.map",
+      "MapHash": "D4E2685C5C526C382407176A13DB9962"
+    },
+    {
+      "MapNameUI": "Warlock",
+      "MapFileName": "warlock.map",
+      "MapHash": "813E88F3C4409FDCD78BA4FD06B9C64C"
+    },
+    {
+      "MapNameUI": "Waterworks",
+      "MapFileName": "waterworks.map",
+      "MapHash": "96338A5DC3D878548F1D3BBCC82BD8C3"
+    },
+    {
+      "MapNameUI": "Zanzibar",
+      "MapFileName": "zanzibar.map",
+      "MapHash": "A81D2C6ACFAC51D64AAF82D21818E17E"
+    }
+  ],
+  "H2AMaps": [
+    {
+      "MapNameUI": "Zenith",
+      "MapFileName": "ca_ascension.map",
+      "MapHash": "063CDE3FE06BCF6A1344D8BD5B4C4E5E"
+    },
+    {
+      "MapNameUI": "BloodLine",
+      "MapFileName": "ca_coagulation.map",
+      "MapHash": "D5A28F24CCBFAC982A730299C804EAEB"
+    },
+    {
+      "MapNameUI": "Skyward",
+      "MapFileName": "ca_forge_skybox01.map",
+      "MapHash": "3A6746B0A58B2B2B024A93B49F0236BA"
+    },
+    {
+      "MapNameUI": "Nebula",
+      "MapFileName": "ca_forge_skybox02.map",
+      "MapHash": "0A19D1EBA424430C0EEFB1108DEA0159"
+    },
+    {
+      "MapNameUI": "Awash",
+      "MapFileName": "ca_forge_skybox03.map",
+      "MapHash": "E829EF2333EACD0BB2DA75C254D8B4AF"
+    },
+    {
+      "MapNameUI": "Lockdown",
+      "MapFileName": "ca_lockout.map",
+      "MapHash": "083A0060540062E4F32CC5BEDADA1E83"
+    },
+    {
+      "MapNameUI": "Remnant",
+      "MapFileName": "ca_relic.map",
+      "MapHash": "3746B86D256D2EA95F68FCF8647C4DBA"
+    },
+    {
+      "MapNameUI": "Shrine",
+      "MapFileName": "ca_sanctuary.map",
+      "MapHash": "9B2141D711513F8E0A0A3C688FD76A0F"
+    },
+    {
+      "MapNameUI": "Warlord",
+      "MapFileName": "ca_warlock.map",
+      "MapHash": "76665FD4669D267488B9661B74B17A65"
+    },
+    {
+      "MapNameUI": "Stonetown",
+      "MapFileName": "ca_zanzibar.map",
+      "MapHash": "A5950CB45B45462B65653E01282B3A2D"
+    }
+  ],
+  "H3Maps": [
+    {
+      "MapNameUI": "Arrival",
+      "MapFileName": "005_intro.map",
+      "MapHash": "6CFC13DCFC4081233A3C22FD07744549"
+    },
+    {
+      "MapNameUI": "Sierra 117",
+      "MapFileName": "010_jungle.map",
+      "MapHash": "94346DE031436EC2066E58B445D32863"
+    },
+    {
+      "MapNameUI": "Crow's Nest",
+      "MapFileName": "020_base.map",
+      "MapHash": "B153FB87778ED836BE4300D0B3D96CC9"
+    },
+    {
+      "MapNameUI": "Tsavo Highway",
+      "MapFileName": "030_outskirts.map",
+      "MapHash": "3F2117AF845CB36E9E7FA9909BE0EC05"
+    },
+    {
+      "MapNameUI": "The Storm",
+      "MapFileName": "040_voi.map",
+      "MapHash": "7D0DE9867E58718167E741C8A6ED0445"
+    },
+    {
+      "MapNameUI": "Floodgate",
+      "MapFileName": "050_floodvoi.map",
+      "MapHash": "93404BEDD2145329C7B2E1374C3D912F"
+    },
+    {
+      "MapNameUI": "The Ark",
+      "MapFileName": "070_waste.map",
+      "MapHash": "D773223378F66DDE88D30C62814DF433"
+    },
+    {
+      "MapNameUI": "The Covenant",
+      "MapFileName": "100_citadel.map",
+      "MapHash": "57F6A6B4FBF3F362B7306D34CBB8207E"
+    },
+    {
+      "MapNameUI": "Cortana",
+      "MapFileName": "110_hc.map",
+      "MapHash": "FC7B2BB1ADE2463DCF88E58FA72E95F6"
+    },
+    {
+      "MapNameUI": "Halo",
+      "MapFileName": "120_halo.map",
+      "MapHash": "EA23119A34FFB05E83AC51D5278BFAC3"
+    },
+    {
+      "MapNameUI": "Epilogue",
+      "MapFileName": "130_epilogue.map",
+      "MapHash": "0CEC3F752164AA759236F5CFB44C246A"
+    },
+    {
+      "MapNameUI": "Rat's Nest",
+      "MapFileName": "armory.map",
+      "MapHash": "1C3151011D83C28EE55BE5DA12E1715F"
+    },
+    {
+      "MapNameUI": "Standoff",
+      "MapFileName": "bunkerworld.map",
+      "MapHash": "6E7F07E1DD1817C26988DF246244FA78"
+    },
+    {
+      "MapNameUI": "Narrows",
+      "MapFileName": "chill.map",
+      "MapHash": "ADF627456B8F92F7BF7D5C992B936207"
+    },
+    {
+      "MapNameUI": "Cold Storage",
+      "MapFileName": "chillout.map",
+      "MapHash": "F7386DB6D1652755B68C6BA846931EBA"
+    },
+    {
+      "MapNameUI": "Construct",
+      "MapFileName": "construct.map",
+      "MapHash": "F50BA0C4D06831C21AE2C94489AB5861"
+    },
+    {
+      "MapNameUI": "The Pit",
+      "MapFileName": "cyberdyne.map",
+      "MapHash": "E19AFEEAC8B6A2470FAD36F21D9AECF1"
+    },
+    {
+      "MapNameUI": "High Ground",
+      "MapFileName": "deadlock.map",
+      "MapHash": "119DF6BEF8F5A12A9B4DF6B6E84C8A71"
+    },
+    {
+      "MapNameUI": "Assembly",
+      "MapFileName": "descent.map",
+      "MapHash": "658118691A3193125FFE16CA2B13A427"
+    },
+    {
+      "MapNameUI": "Longshore",
+      "MapFileName": "docks.map",
+      "MapHash": "996A2B7070900BBDCE7D69BE2402E031"
+    },
+    {
+      "MapNameUI": "Citadel",
+      "MapFileName": "fortress.map",
+      "MapHash": "57BC4485FDF72C46F39DC94A51899681"
+    },
+    {
+      "MapNameUI": "Ghost Town",
+      "MapFileName": "ghosttown.map",
+      "MapHash": "8A48AA5FB3D2016B0911E987523D381F"
+    },
+    {
+      "MapNameUI": "Guardian",
+      "MapFileName": "guardian.map",
+      "MapHash": "B080B7F836EC4223864C0D4F03CEC356"
+    },
+    {
+      "MapNameUI": "Isolation",
+      "MapFileName": "isolation.map",
+      "MapHash": "409141B3FB0C9E31B6FF99FCD906E51A"
+    },
+    {
+      "MapNameUI": "Blackout",
+      "MapFileName": "lockout.map",
+      "MapHash": "232D516A15A68D6620F0513B693F9112"
+    },
+    {
+      "MapNameUI": "Heretic",
+      "MapFileName": "midship.map",
+      "MapHash": "223B6FBBCC3B535E99B10C7509A4CAD5"
+    },
+    {
+      "MapNameUI": "Valhalla",
+      "MapFileName": "riverworld.map",
+      "MapHash": "D3B4145287E5CE80AAE4DBE1813EEB41"
+    },
+    {
+      "MapNameUI": "Edge",
+      "MapFileName": "s3d_edge.map",
+      "MapHash": "9FDB54FB10120AC7240F1344C7F46C83"
+    },
+    {
+      "MapNameUI": "Icebox",
+      "MapFileName": "s3d_turf.map",
+      "MapHash": "55B2404550194FC8A874622124778FED"
+    },
+    {
+      "MapNameUI": "Waterfall",
+      "MapFileName": "s3d_waterfall.map",
+      "MapHash": "4F0EEDF93708EBCCF4C0F6D6771F00C4"
+    },
+    {
+      "MapNameUI": "Epitaph",
+      "MapFileName": "salvation.map",
+      "MapHash": "7721145D8E6F68B2F284EAF6AD064784"
+    },
+    {
+      "MapNameUI": "Sandbox",
+      "MapFileName": "sandbox.map",
+      "MapHash": "1CC21208C1CDB8E18F1D04AD7C6BF31F"
+    },
+    {
+      "MapNameUI": "Sandtrap",
+      "MapFileName": "shrine.map",
+      "MapHash": "D68DAA9ECCBD975EF2E4CD2A3042E594"
+    },
+    {
+      "MapNameUI": "Avalanche",
+      "MapFileName": "sidewinder.map",
+      "MapHash": "EE6ADD0BE9BBD78BBB005072ED8A36EC"
+    },
+    {
+      "MapNameUI": "Snowbound",
+      "MapFileName": "snowbound.map",
+      "MapHash": "036E33F8CA71DE89F46B3F535909D3C4"
+    },
+    {
+      "MapNameUI": "Orbital",
+      "MapFileName": "spacecamp.map",
+      "MapHash": "2EC26ED619B02377518DBCF7526A8CB8"
+    },
+    {
+      "MapNameUI": "Foundry",
+      "MapFileName": "warehouse.map",
+      "MapHash": "8D32D1C0C44EFC675F0C7F4C0A635387"
+    },
+    {
+      "MapNameUI": "Last Resort",
+      "MapFileName": "zanzibar.map",
+      "MapHash": "F2978EC47B87BC938B1A50F847417787"
+    }
+  ],
+  "ODSTMaps": [
+    {
+      "MapNameUI": "Prepare To Drop",
+      "MapFileName": "c100.map",
+      "MapHash": "11EF4619296C0E8884865D1932256FC7"
+    },
+    {
+      "MapNameUI": "Coastal Highway (Epilogue)",
+      "MapFileName": "c200.map",
+      "MapHash": "78D46CA1F286A3E8A24D224967E59822"
+    },
+    {
+      "MapNameUI": "Mombasa Streets | Crater (Night)",
+      "MapFileName": "h100.map",
+      "MapHash": "D6118886D1BB0D1B4085A723852BA1BF"
+    },
+    {
+      "MapNameUI": "Data Hive | Chasm Ten",
+      "MapFileName": "L200.map",
+      "MapHash": "F4FF519D22C117C75B42AD3C16F7630F"
+    },
+    {
+      "MapNameUI": "Coastal Highway | Last Exit",
+      "MapFileName": "l300.map",
+      "MapHash": "45CDAA0EEEEE46D8CC3BDCAE6D3FCB2D"
+    },
+    {
+      "MapNameUI": "Tayari Plaza | Crater",
+      "MapFileName": "sc100.map",
+      "MapHash": "8B3AF84DF3A283BE63E63DE648ADF01D"
+    },
+    {
+      "MapNameUI": "Uplift Reserve | Lost Platoon",
+      "MapFileName": "sc110.map",
+      "MapHash": "BE4D5BDC3297BD08DC41B7E0E7D40302"
+    },
+    {
+      "MapNameUI": "Kizingo Boulevard | Rally Point",
+      "MapFileName": "sc120.map",
+      "MapHash": "CE34D2A85D9D26524DAF1ADAE742931E"
+    },
+    {
+      "MapNameUI": "ONI Alpha Site | Security Zone | Alpha Site",
+      "MapFileName": "sc130.map",
+      "MapHash": "5D8744A1B9F01FDBBB3981DA34A26B03"
+    },
+    {
+      "MapNameUI": "NMPD HQ | Windward",
+      "MapFileName": "sc140.map",
+      "MapHash": "7C15B83C902BE2A31EBDF99202A1B23B"
+    },
+    {
+      "MapNameUI": "Kikowani Station",
+      "MapFileName": "sc150.map",
+      "MapHash": "FFBB3B68E7B3ED6F2854DAB83D4FA37B"
+    }
+  ],
+  "H4Maps": [
+    {
+      "MapNameUI": "Outcast",
+      "MapFileName": "ca_basin.map",
+      "MapHash": "39408FBEC9330A46FC63D01C9C713564"
+    },
+    {
+      "MapNameUI": "Abandon",
+      "MapFileName": "ca_blood_cavern.map",
+      "MapHash": "92AAC58F4CD1B5CA73B5DD23BCF72E54"
+    },
+    {
+      "MapNameUI": "Exile",
+      "MapFileName": "ca_blood_crash.map",
+      "MapHash": "24660CC407625F1A96E7FCDAA2508AE1"
+    },
+    {
+      "MapNameUI": "Meltdown",
+      "MapFileName": "ca_canyon.map",
+      "MapHash": "ABBD394F23213146341E52EE8F246221"
+    },
+    {
+      "MapNameUI": "Pitfall",
+      "MapFileName": "ca_creeper.map",
+      "MapHash": "5A97916296D18CC1A32F630D92F023B0"
+    },
+    {
+      "MapNameUI": "Monolith",
+      "MapFileName": "ca_deadlycrossing.map",
+      "MapHash": "AA0754395AD8B3A9DF1A0C2129ED38F9"
+    },
+    {
+      "MapNameUI": "Vertigo",
+      "MapFileName": "ca_dropoff.map",
+      "MapHash": "D25335C1A5B485E8CD06EC9C30AA9F74"
+    },
+    {
+      "MapNameUI": "Impact",
+      "MapFileName": "ca_forge_bonanza.map",
+      "MapHash": "914738EF6CA327EB86ECDF28EDE10FEB"
+    },
+    {
+      "MapNameUI": "Erosion",
+      "MapFileName": "ca_forge_erosion.map",
+      "MapHash": "551628A0F8ACD3CA6F4EB8FC62C828C2"
+    },
+    {
+      "MapNameUI": "Ravine",
+      "MapFileName": "ca_forge_ravine.map",
+      "MapHash": "0F973CAE81A23A9DA8F8903C49239DC8"
+    },
+    {
+      "MapNameUI": "Longbow",
+      "MapFileName": "ca_gore_valley.map",
+      "MapHash": "F48BFD648C1D2FBC69743D8D5195FCF9"
+    },
+    {
+      "MapNameUI": "Perdition",
+      "MapFileName": "ca_highrise.map",
+      "MapHash": "A5107CD229140B2199E6078FDB373CD8"
+    },
+    {
+      "MapNameUI": "Landfall",
+      "MapFileName": "ca_port.map",
+      "MapHash": "B95DE1C5839B039A11B6F33BC9D36806"
+    },
+    {
+      "MapNameUI": "Skyline",
+      "MapFileName": "ca_rattler.map",
+      "MapHash": "2732920FA7260727DDCC698635E63F7A"
+    },
+    {
+      "MapNameUI": "Vortex",
+      "MapFileName": "ca_redoubt.map",
+      "MapHash": "DDCB23B20CE5449C5BD52420BBA485A0"
+    },
+    {
+      "MapNameUI": "Daybreak",
+      "MapFileName": "ca_spiderweb.map",
+      "MapHash": "277E58C5653725D1BF6A086B92866EE6"
+    },
+    {
+      "MapNameUI": "Solace",
+      "MapFileName": "ca_tower.map",
+      "MapHash": "7CB60482C24E44E7465A36CFD2B68E3D"
+    },
+    {
+      "MapNameUI": "Adrift",
+      "MapFileName": "ca_warhouse.map",
+      "MapHash": "328F7258548604F3E79B8B08900992EA"
+    },
+    {
+      "MapNameUI": "Infinity (Spartan Ops)",
+      "MapFileName": "dlc01_engine.map",
+      "MapHash": "DF368A43D9514CB9031AB1EE2D1BEDD1"
+    },
+    {
+      "MapNameUI": "Lockup (Spartan Ops)",
+      "MapFileName": "dlc01_factory.map",
+      "MapHash": "847F397B441A5C20354FA695C62CE5C0"
+    },
+    {
+      "MapNameUI": "Shatter",
+      "MapFileName": "dlc_dejewel.map",
+      "MapHash": "346EF23C18FE49EDD5C2B1C8D2C0765C"
+    },
+    {
+      "MapNameUI": "Wreckage",
+      "MapFileName": "dlc_dejunkyard.map",
+      "MapHash": "B19FE807F5AB381DB0A17049A01AEC5E"
+    },
+    {
+      "MapNameUI": "Forge Island",
+      "MapFileName": "dlc_forge_island.map",
+      "MapHash": "1418E66C45974D15E99D6B4F4B4E6AB9"
+    },
+    {
+      "MapNameUI": "Control (Spartan Ops)",
+      "MapFileName": "ff151_mezzanine.map",
+      "MapHash": "9033C2E100F0160EAF26D2ED1DFCA0DE"
+    },
+    {
+      "MapNameUI": "Cyclone (Spartan Ops)",
+      "MapFileName": "ff152_vortex.map",
+      "MapHash": "C761204AE8671EDBCCE8D1C38639D962"
+    },
+    {
+      "MapNameUI": "Warrens (Spartan Ops)",
+      "MapFileName": "ff153_caverns.map",
+      "MapHash": "ECB72DB3307A6E000A75387840A685CF"
+    },
+    {
+      "MapNameUI": "Apex (Spartan Ops)",
+      "MapFileName": "ff154_hillside.map",
+      "MapHash": "FE3B2CC782BB42AB8DAB66B46F61E647"
+    },
+    {
+      "MapNameUI": "Harvester (Spartan Ops)",
+      "MapFileName": "ff155_breach.map",
+      "MapHash": "7D00DD79F6448027D60DA6621B821833"
+    },
+    {
+      "MapNameUI": "The Gate (Spartan Ops)",
+      "MapFileName": "ff81_courtyard.map",
+      "MapHash": "67DD3C0989B08DD20C85E1DBF8E1EB1E"
+    },
+    {
+      "MapNameUI": "The Cauldron (Spartan Ops)",
+      "MapFileName": "ff82_scurve.map",
+      "MapHash": "DCCC65675F0F40D0F12FE4CB3CA7549A"
+    },
+    {
+      "MapNameUI": "The Refuge (Spartan Ops)",
+      "MapFileName": "ff84_temple.map",
+      "MapHash": "FDD2AEC06147CCD3EBF1BB86C9EF02D7"
+    },
+    {
+      "MapNameUI": "Sniper Alley (Spartan Ops)",
+      "MapFileName": "ff86_sniperalley.map",
+      "MapHash": "25F182DC75BDBBCD548976876F67E9FC"
+    },
+    {
+      "MapNameUI": "Quarry (Spartan Ops)",
+      "MapFileName": "ff87_chopperbowl.map",
+      "MapHash": "B2E95ACF86C4E10975A2FB07E12DF31E"
+    },
+    {
+      "MapNameUI": "Fortress (Spartan Ops)",
+      "MapFileName": "ff90_fortsw.map",
+      "MapHash": "1A4C9B093D81EE257D3E53A310222134"
+    },
+    {
+      "MapNameUI": "Galileo Base (Spartan Ops)",
+      "MapFileName": "ff91_complex.map",
+      "MapHash": "478AE01042B92A2A337CB047F226CC71"
+    },
+    {
+      "MapNameUI": "Two Giants (Spartan Ops)",
+      "MapFileName": "ff92_valhalla.map",
+      "MapHash": "64041E8661EA57057FC0C2341235F2F5"
+    },
+    {
+      "MapNameUI": "Requiem",
+      "MapFileName": "m020.map",
+      "MapHash": "38412C9FE0FA1FA21998C4E63E80F884"
+    },
+    {
+      "MapNameUI": "Prologue",
+      "MapFileName": "m05_prologue.map",
+      "MapHash": "3D8A8FDD81DA4986B19883253225A3BB"
+    },
+    {
+      "MapNameUI": "Dawn",
+      "MapFileName": "m10_crash.map",
+      "MapHash": "64C703D009503FC6E4455323964BA8D9"
+    },
+    {
+      "MapNameUI": "Forerunner",
+      "MapFileName": "m30_cryptum.map",
+      "MapHash": "707D4DB000D670B2F8C8B58B823E0DFB"
+    },
+    {
+      "MapNameUI": "Reclaimer",
+      "MapFileName": "m40_invasion.map",
+      "MapHash": "3A0F183511D5F542AE0A457840715D77"
+    },
+    {
+      "MapNameUI": "Infinity ",
+      "MapFileName": "m60_rescue.map",
+      "MapHash": "5CA840303C085B196679B90A50042D0D"
+    },
+    {
+      "MapNameUI": "Shutdown",
+      "MapFileName": "m70_liftoff.map",
+      "MapHash": "08D0F1E1390876EDC5ECAF3AEC8C037F"
+    },
+    {
+      "MapNameUI": "Composer",
+      "MapFileName": "m80_delta.map",
+      "MapHash": "579E4BDBE0AEBE77DA8DA859C387DE30"
+    },
+    {
+      "MapNameUI": "Midnight",
+      "MapFileName": "m90_sacrifice.map",
+      "MapHash": "237475F5CC3FF24CDB6DE9A835F6E6A6"
+    },
+    {
+      "MapNameUI": "Epilogue",
+      "MapFileName": "m95_epilogue.map",
+      "MapHash": "D30C6B01C4D79BBC003C0A66098CD555"
+    },
+    {
+      "MapNameUI": "Haven",
+      "MapFileName": "wraparound.map",
+      "MapHash": "F87319FA7A59AA9ED529FC1F9F77EFC5"
+    },
+    {
+      "MapNameUI": "Complex",
+      "MapFileName": "z05_cliffside.map",
+      "MapHash": "8E542BDA9E1502057444B1E7B91313A0"
+    },
+    {
+      "MapNameUI": "Ragnarok",
+      "MapFileName": "z11_valhalla.map",
+      "MapHash": "9F04AA649E92B9530DA09A55D9C1E717"
+    },
+    {
+      "MapNameUI": "Harvest",
+      "MapFileName": "zd_02_grind.map",
+      "MapHash": "6C23DA9FC57CF1785C3F302D71FE27D4"
+    }
+  ]
+}
