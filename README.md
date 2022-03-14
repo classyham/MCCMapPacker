@@ -34,7 +34,7 @@ The code is a mess at current but fully functional. I will be tidying it in the 
 
 ## Online Connectivity
 
-As of version 0.0.2 the tool can now connect to the internet ONLY if the user accepts the prompt to do so. The only url it accesses is: [Girhub Raw - StockMapData.Json](https://raw.githubusercontent.com/classyham/MCCStockMapHashes/main/StockMapData.json)
+As of version 0.0.2 the tool can now connect to the internet ONLY if the user accepts the prompt to do so. The only url it accesses is: [Github Raw - StockMapData.Json](https://raw.githubusercontent.com/classyham/MCCStockMapHashes/main/StockMapData.json)
 
 The tool can check for updates but this is done by testing against the build_tag.txt inside of the MCC install directory. This will prompt the user whether they would like to auto update the json file from the link above, but this can be replaced manually if preferred. 
 
