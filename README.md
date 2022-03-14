@@ -17,6 +17,8 @@ The code is a mess at current but fully functional. I will be tidying it in the 
 
 ## How to Use
 
+A video tutorial can be found [here](https://www.youtube.com/watch?v=X2O5wQ_j0j0)
+
 - Extract the software
 - Run "MCCMapPacker.exe"
 - Fill out your game path if prompted
