@@ -13,6 +13,7 @@ using MCCMapPacker.Objects;
 using Newtonsoft.Json;
 using MCCMapPacker.Forms;
 using Ionic.Zip;
+using System.Net;
 
 namespace MCCMapPacker
 {
@@ -20,6 +21,7 @@ namespace MCCMapPacker
     {
         Control control;
 
+        PathsDialogue paths;
 
         public MainForm()
         {
@@ -34,18 +36,32 @@ namespace MCCMapPacker
             {
                 LoadBtn.Enabled = true;
                 CreateBtn.Enabled = true;
+                ValidateBtn.Enabled = true;
+                RestoreMapsBtn.Enabled = true;
+                CheckVersion();
             }
             else
             {
                 MessageBox.Show("Looks like this is your first time running this(or your config is invalid), please fill out the next window to ensure all files are located.");
                 ShowPathsDialog();
+                paths.ConfigUpdated += OnConfigUpdated;
             }
+        }
+
+        private void OnConfigUpdated(object sender, EventArgs e)
+        {
+            paths.ConfigUpdated -= OnConfigUpdated;
+            LoadBtn.Enabled = true;
+            CreateBtn.Enabled = true;
+            ValidateBtn.Enabled = true;
+            RestoreMapsBtn.Enabled = true;
+            CheckVersion();
         }
 
         #region Drag
         private void MainForm_MouseMove(object sender, MouseEventArgs e)
         {
-            if(e.Button == MouseButtons.Left)
+            if (e.Button == MouseButtons.Left)
             {
                 Draggable.Move(this);
             }
@@ -59,6 +75,26 @@ namespace MCCMapPacker
             }
         }
         #endregion
+
+        private void CheckVersion()
+        {
+            VersionCheck version = new VersionCheck();
+            
+            if(!version.CheckVersion())
+            {
+                DialogResult dialogResult = MessageBox.Show("The map hashes are out of date, would you like to check for updates?", "Check for updates" , MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    version.GetUpdate();
+                }
+                else
+                {
+                    MessageBox.Show("The tool will not function properly without up to date data. Please ");
+                    return;
+                }
+            }
+
+        }
 
         private void ExitButton_Click_1(object sender, EventArgs e)
         {
@@ -88,6 +124,7 @@ namespace MCCMapPacker
             LoadBtn.Enabled = bEnabled;
             ValidateBtn.Enabled = bEnabled;
             SettingsBtn.Enabled = bEnabled;
+            RestoreMapsBtn.Enabled = bEnabled;
             ExitBtn.Enabled = bEnabled;
         }
 
@@ -132,10 +169,26 @@ namespace MCCMapPacker
 
         private void ShowPathsDialog()
         {
-            PathsDialogue paths = new PathsDialogue();
+            paths = new PathsDialogue();
             this.Hide();
             paths.Show();
             paths.mainForm = this;
+        }
+        
+        private async void RestoreMapsBtn_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("This will take some time as ALL maps will be restored providing backups are available. If you do not have backups then you will need to validate your files through the store you bought the game from.", "Restore Maps", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                SetControlsState(false);
+                Restore res = new Restore();
+                await res.RestoreMaps();
+                SetControlsState(true);
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+                return;
+            }
         }
     }
 }

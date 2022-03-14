@@ -10,6 +10,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static MCCMapPacker.Objects.Helpers;
 
 namespace MCCMapPacker
 {
@@ -17,7 +18,7 @@ namespace MCCMapPacker
     {
         ConfigData config;
 
-        StockMapHashes hashes;
+        StockMapData data;
 
         public event EventHandler LoadComplete = delegate { };
 
@@ -25,7 +26,10 @@ namespace MCCMapPacker
 
         public Loader()
         {
-            hashes = JsonConvert.DeserializeObject<StockMapHashes>(File.ReadAllText("StockMaps.Json"));
+            if(StockMapDataExists())
+            {
+                data = GetStockMapData();
+            }
         }
 
 
@@ -116,7 +120,7 @@ namespace MCCMapPacker
             if (Path.HasExtension(filePath))
             {
                 Games g = GetGameFromPath(filePath);
-                string stockHash = hashes.GetMapHashFromName(g, Path.GetFileName(filePath));
+                string stockHash = data.MapHashFromFileName(g, Path.GetFileName(filePath));
 
                 string hash = await CalculateMD5(filePath);
 
@@ -130,22 +134,6 @@ namespace MCCMapPacker
 
 
             return true;
-        }
-        //Get MD5 as one continuous string for easy comparison
-        private async Task<string> CalculateMD5(string filename)
-        {
-            return await Task.Run(() =>
-            {
-                using (var md5 = MD5.Create())
-                {
-                    using (var stream = File.OpenRead(filename))
-                    {
-                        var hash = md5.ComputeHash(stream);
-                        return BitConverter.ToString(hash).Replace("-", string.Empty);
-                    }
-                }
-            });
-
         }
 
         private Games GetGameFromPath(string path)

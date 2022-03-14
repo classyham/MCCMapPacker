@@ -29,6 +29,7 @@ namespace MCCMapPacker
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PathsDialogue));
             this.GamePath = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.BrowseButton = new System.Windows.Forms.Button();
@@ -96,6 +97,7 @@ namespace MCCMapPacker
             this.Controls.Add(this.label1);
             this.Controls.Add(this.GamePath);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PathsDialogue";
             this.Text = "Paths";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.PathsDialogue_FormClosed);

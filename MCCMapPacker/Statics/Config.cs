@@ -8,28 +8,27 @@ using System.Windows.Forms;
 using MCCMapPacker.Objects;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
+using static MCCMapPacker.Objects.Globals;
 
 namespace MCCMapPacker
 {
 
     public static class Config
     {
-        public static string configPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\MCCMapPacker\config\";
-
-        public static string configFile = configPath + @"\config.json";
+        public static string configPath = Path.GetDirectoryName(ConfigFile);
 
         public static bool CheckConfig()
         {
-            if (!File.Exists(configFile))
+            if (!File.Exists(ConfigFile))
             {
                 Directory.CreateDirectory(configPath);
                 ConfigData c = new ConfigData();
                 string configstring = JsonConvert.SerializeObject(c, Formatting.Indented);
-                File.WriteAllText(configFile, configstring);
+                File.WriteAllText(ConfigFile, configstring);
                 return false;
             }
 
-            ConfigData con = JsonConvert.DeserializeObject<ConfigData>(File.ReadAllText(configFile));
+            ConfigData con = JsonConvert.DeserializeObject<ConfigData>(File.ReadAllText(ConfigFile));
             if(!(Directory.Exists(con.GamePath) || Directory.Exists(con.BackupPath)))
             {
                 return false;
@@ -41,7 +40,7 @@ namespace MCCMapPacker
         {
             try
             {
-                return JsonConvert.DeserializeObject<ConfigData>(File.ReadAllText(configFile));
+                return JsonConvert.DeserializeObject<ConfigData>(File.ReadAllText(ConfigFile));
             }
                catch (Exception)
             {

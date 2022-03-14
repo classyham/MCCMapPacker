@@ -29,6 +29,7 @@ namespace MCCMapPacker.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreatePackForm));
             this.CloseButton = new System.Windows.Forms.Button();
             this.PackName = new System.Windows.Forms.TextBox();
             this.PackNameLabel = new System.Windows.Forms.Label();
@@ -303,6 +304,7 @@ namespace MCCMapPacker.Forms
             this.Controls.Add(this.PackName);
             this.Controls.Add(this.CloseButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CreatePackForm";
             this.Text = "CreatePackForm";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.CreatePackForm_FormClosed);

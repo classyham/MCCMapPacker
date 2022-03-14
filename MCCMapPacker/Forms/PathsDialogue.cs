@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using MCCMapPacker;
 using Newtonsoft.Json;
 using MCCMapPacker.Window;
+using static MCCMapPacker.Objects.Globals;
 
 namespace MCCMapPacker
 {
@@ -20,6 +21,8 @@ namespace MCCMapPacker
         public MainForm mainForm;
 
         ConfigData config;
+
+        public event EventHandler ConfigUpdated = delegate { };
 
         public PathsDialogue()
         {
@@ -47,15 +50,20 @@ namespace MCCMapPacker
         }
         private void BrowseButton_Click(object sender, EventArgs e)
         {
-            using (var fbd = new FolderBrowserDialog())
+            using (var fbd = new OpenFileDialog())
             {
+
+                fbd.DefaultExt = "zip";
+                fbd.Filter = "MCC Launcher (mcclauncher.exe)|mcclauncher.exe|All files (*.*)|*.*";
+                fbd.CheckFileExists = true;
+                fbd.CheckPathExists = true;
                 DialogResult result = fbd.ShowDialog();
 
-                if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(fbd.SelectedPath))
+                if (result == DialogResult.OK && !string.IsNullOrWhiteSpace(Path.GetDirectoryName(fbd.FileName)))
                 {
-                    if (File.Exists(fbd.SelectedPath + @"\mcclauncher.exe"))
+                    if (File.Exists(Path.GetDirectoryName(fbd.FileName) + @"\mcclauncher.exe"))
                     {
-                        GamePath.Text = fbd.SelectedPath;
+                        GamePath.Text = Path.GetDirectoryName(fbd.FileName);
                     }
                     else
                     {
@@ -74,7 +82,9 @@ namespace MCCMapPacker
             }
             config.GamePath = GamePath.Text;
 
-            File.WriteAllText(Config.configFile, JsonConvert.SerializeObject(config));
+            File.WriteAllText(ConfigFile, JsonConvert.SerializeObject(config));
+
+            ConfigUpdated.Invoke(this, new EventArgs());
 
             mainForm.Show();
             this.Close();

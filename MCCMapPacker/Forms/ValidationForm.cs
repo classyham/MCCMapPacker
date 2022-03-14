@@ -14,263 +14,148 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Threading;
 using MCCMapPacker.Window;
+using static MCCMapPacker.Objects.Validation;
 
 namespace MCCMapPacker.Forms
 {
     public partial class ValidationForm : Form
     {
-        private ConfigData config;
-
-        private StockMapHashes hashes;
+        GamesToValidate games;
 
         public MainForm main;
 
-        CancellationTokenSource tokensource;
-        CancellationToken ct;
+        Validation validation;
 
-        bool bCloseOnCancel;
         bool bValidationInProgress;
+        bool bCloseOnCancel;
 
-        Control VList;
-        Control VProg;
+        Control control;
 
         public ValidationForm()
         {
             InitializeComponent();
-            VList = HashList;
-            VProg = ValidationProgress;
+            control = HashListView;
+            
+            validation = new Validation();
+            validation.MapValidated += UpdateList;
+            validation.OnValidationCancelled += OnValidationCancelled;
+            validation.OnValidationComplete += OnValidationComplete;
+        }
+
+        private void OnValidationComplete(int successcount)
+        {
+            int amount = validation.GetNumFilesToValidate(games);
+
+            if(successcount == amount)
+            {
+                MessageBox.Show("All maps successfully validated.");
+                return;
+            }
+            MessageBox.Show(successcount + " maps passed validation. " + (amount-successcount) + " maps failed to validate (Probably modded maps)");
         }
 
         private void ValidationForm_Load(object sender, EventArgs e)
         {
-            config = Config.LoadConfig();
-
-            hashes = JsonConvert.DeserializeObject<StockMapHashes>(File.ReadAllText("StockMaps.Json"));
-
-            tokensource = new CancellationTokenSource();
-            ct = tokensource.Token;
-
-            ValidationProgress.Maximum = hashes.CEMaps.Count + hashes.H2AMaps.Count + hashes.H2CMaps.Count + hashes.H3Maps.Count + hashes.H4Maps.Count + hashes.ODSTMaps.Count + hashes.ReachMaps.Count;
+            SetupCheckboxes();
         }
-        //this function is uggo but i cba to fix it... it's 2am.
-        public async Task ValidateMaps()
+
+        public void SetupCheckboxes()
         {
-            if (ReachCB.Checked)
-            {
-                foreach (MapData map in hashes.ReachMaps)
-                {
-                    string hash = await CalculateMD5(config.GamePath + @"\haloreach\maps\" + map.MapFileName);
-                    if (hash == map.MapHash)
-                    {
-                        UpdateList(map.MapNameUI + " - Passed");
-                    }
-                    else
-                    {
-                        UpdateList(map.MapNameUI + " - Failed");
-                    }
-                }
-            }
+            SetupTags();
 
-            if (H1CB.Checked)
+            foreach (Control c in this.Controls)
             {
-                foreach (MapData map in hashes.CEMaps)
+                if (c is CheckBox)
                 {
-                    string hash = await CalculateMD5(config.GamePath + @"\halo1\maps\" + map.MapFileName);
-                    if (hash == map.MapHash)
-                    {
-                        UpdateList(map.MapNameUI + " - Passed");
-                    }
-                    else
-                    {
-                        UpdateList(map.MapNameUI + " - Failed");
-                    }
-                }
-            }
-
-            if (H2CCB.Checked)
-            {
-                foreach (MapData map in hashes.H2CMaps)
-                {
-                    string hash = await CalculateMD5(config.GamePath + @"\halo2\maps\" + map.MapFileName);
-                    if (hash == map.MapHash)
-                    {
-                        UpdateList(map.MapNameUI + " - Passed");
-                    }
-                    else
-                    {
-                        UpdateList(map.MapNameUI + " - Failed");
-                    }
-                }
-            }
-
-            if (H2ACB.Checked)
-            {
-                foreach (MapData map in hashes.H2AMaps)
-                {
-                    string hash = await CalculateMD5(config.GamePath + @"\groundhog\maps\" + map.MapFileName);
-                    if (hash == map.MapHash)
-                    {
-                        UpdateList(map.MapNameUI + " - Passed");
-                    }
-                    else
-                    {
-                        UpdateList(map.MapNameUI + " - Failed");
-                    }
-                }
-            }
-
-            if (Halo3CB.Checked)
-            {
-                foreach (MapData map in hashes.H3Maps)
-                {
-                    string hash = await CalculateMD5(config.GamePath + @"\halo3\maps\" + map.MapFileName);
-                    if (hash == map.MapHash)
-                    {
-                        UpdateList(map.MapNameUI + " - Passed");
-                    }
-                    else
-                    {
-                        UpdateList(map.MapNameUI + " - Failed");
-                    }
-                }
-            }
-
-            if (ODSTCB.Checked)
-            {
-                foreach (MapData map in hashes.ODSTMaps)
-                {
-                    string hash = await CalculateMD5(config.GamePath + @"\halo3odst\maps\" + map.MapFileName);
-                    if (hash == map.MapHash)
-                    {
-                        UpdateList(map.MapNameUI + " - Passed");
-                    }
-                    else
-                    {
-                        UpdateList(map.MapNameUI + " - Failed");
-                    }
-                }
-            }
-
-            if (H4CB.Checked)
-            {
-                foreach (MapData map in hashes.H4Maps)
-                {
-                    string hash = await CalculateMD5(config.GamePath + @"\halo4\maps\" + map.MapFileName);
-                    if (hash == map.MapHash)
-                    {
-                        UpdateList(map.MapNameUI + " - Passed");
-                    }
-                    else
-                    {
-                        UpdateList(map.MapNameUI + " - Failed");
-                    }
+                    ((CheckBox)c).CheckedChanged += EnumCheckedChanged;
                 }
             }
         }
 
+        //Don't like this, but it is what it is...
+        void SetupTags()
+        {
+            H1CB.Tag = GamesToValidate.HaloCE;
+            H2CCB.Tag = GamesToValidate.Halo2C;
+            H2ACB.Tag = GamesToValidate.Halo2A;
+            Halo3CB.Tag = GamesToValidate.Halo3;
+            ODSTCB.Tag = GamesToValidate.HaloODST;
+            ReachCB.Tag = GamesToValidate.HaloReach;
+            H4CB.Tag = GamesToValidate.Halo4;
+        }
+
+        void EnumCheckedChanged(object sender, EventArgs e)
+        {
+            var checkbox = (CheckBox)sender;
+
+            var flag = (GamesToValidate)checkbox.Tag;
+
+            if (checkbox.Checked)
+            {
+                games |= flag;
+            }
+            else
+            {
+                games ^= flag;
+            }
+        }
+   
         private async void ValidateButton_Click(object sender, EventArgs e)
         {
-            if(bValidationInProgress)
-            {
-                return;
-            }
+            //clear the list
+            HashListView.Items.Clear();
+            //set progress bar maximum
+            ValidationProgress.Maximum = validation.GetNumFilesToValidate(games);
+            //disable checkboxes so can't be changed mid validation
+            SetCheckboxState(false);
+            //validation block
             bValidationInProgress = true;
-            ClearList();
-            //would be nice to be able to pause / cancel this while its running. but tasks make my head spin...
-            try
+            await validation.ValidateMaps(games);
+            bValidationInProgress = false;
+            //set checkboxes enabled again as validation is complete
+            SetCheckboxState(true);
+        }
+
+        private void OnValidationCancelled()
+        {
+           if(bCloseOnCancel)
             {
-                await ValidateMaps();
-                
-            }
-            catch (OperationCanceledException ex)
-            {
-                Console.WriteLine($"{nameof(OperationCanceledException)} thrown with message: {ex.Message}");
-            }
-            finally
-            {
-                bValidationInProgress = false;
-                tokensource.Dispose();
-                SetCheckboxesEnabled();
-                if(bCloseOnCancel)
-                {
-                    this.Close();
-                    main.Show();
-                }
-                
+                this.Close();
+                main.Show();
             }
         }
 
-        private async Task<string> CalculateMD5(string filename)
+        private void SetCheckboxState(bool bState)
         {
-            return await Task.Run(() =>
+                H1CB.Enabled = bState;
+                H2ACB.Enabled = bState;
+                ReachCB.Enabled = bState;
+                H2CCB.Enabled = bState;
+                Halo3CB.Enabled = bState;
+                ODSTCB.Enabled = bState;
+                H4CB.Enabled = bState;
+        }
+
+        private void UpdateList(string Mapname, bool passed)
+        {
+            control.BeginInvoke((MethodInvoker)delegate ()
             {
-                if (ct.IsCancellationRequested)
+                ListViewItem lv = new ListViewItem();
+
+                if (passed)
                 {
-                    // Clean up here, then...
-                    ct.ThrowIfCancellationRequested();
+                    lv.Text = Mapname + " - Passed";
+                    lv.ForeColor = Color.FromArgb(61, 165, 96);
                 }
-
-
-                using (var md5 = MD5.Create())
+                else
                 {
-                    using (var stream = File.OpenRead(filename))
-                    {
-                        var hash = md5.ComputeHash(stream);
-                        return BitConverter.ToString(hash).Replace("-", string.Empty);
-                    }
+                    lv.Text = Mapname + " - Failed";
+                    lv.ForeColor = Color.FromArgb(236, 65, 69);
                 }
-            }, tokensource.Token);
+                HashListView.Items.Add(lv);
+                HashListView.EnsureVisible(HashListView.Items.Count - 1);
 
-            
-        }
-        private void SetCheckboxesEnabled()
-        {
-            VList.BeginInvoke((MethodInvoker)delegate ()
-            {
-                H1CB.Enabled = true;
-                H2ACB.Enabled = true;
-                ReachCB.Enabled = true;
-                H2CCB.Enabled = true;
-                Halo3CB.Enabled = true;
-                ODSTCB.Enabled = true;
-                H4CB.Enabled = true;
-
-            });
-        }
-        private void ClearList()
-        {
-            VList.BeginInvoke((MethodInvoker)delegate ()
-            {
-                HashList.Items.Clear();
-                //piggybacking ftw
-                H1CB.Enabled = false;
-                H2ACB.Enabled = false;
-                ReachCB.Enabled = false;
-                H2CCB.Enabled = false;
-                Halo3CB.Enabled = false;
-                ODSTCB.Enabled = false;
-                H4CB.Enabled = false;
-
-            });
-            VProg.BeginInvoke((MethodInvoker)delegate ()
-            {
-                ValidationProgress.Value = 0;
-                ValidationProgress.Maximum = Getvalidationcount();
-            });
-        }
-
-        private void UpdateList(string passInfo)
-        {
-            VList.BeginInvoke((MethodInvoker)delegate ()
-            {
-                HashList.Items.Add(passInfo);
-                HashList.SelectedIndex = HashList.Items.Count - 1;
-                HashList.SelectedIndex = -1;
-                
-            });
-            VProg.BeginInvoke((MethodInvoker)delegate ()
-            {
-                ValidationProgress.Value++;
+                ValidationProgress.Value = HashListView.Items.Count;
             });
         }
 
@@ -278,7 +163,7 @@ namespace MCCMapPacker.Forms
         {
             if(bValidationInProgress)
             {
-                tokensource.Cancel();
+                validation.CancelValidation();
                 bCloseOnCancel = true;
             }
             else
@@ -286,51 +171,8 @@ namespace MCCMapPacker.Forms
                 this.Close();
                 main.Show();
             }
-            
-
         }
 
-        private int Getvalidationcount()
-        {
-            int count = 0;
-
-            if(ReachCB.Checked)
-            {
-                count = count + hashes.ReachMaps.Count;
-            }
-
-            if (H1CB.Checked)
-            {
-                count = count + hashes.CEMaps.Count;
-            }
-
-            if (H2ACB.Checked)
-            {
-                count = count + hashes.H2AMaps.Count;
-            }
-
-            if (H2CCB.Checked)
-            {
-                count = count + hashes.H2CMaps.Count;
-            }
-
-            if (Halo3CB.Checked)
-            {
-                count = count + hashes.H3Maps.Count;
-            }
-
-            if (ODSTCB.Checked)
-            {
-                count = count + hashes.ODSTMaps.Count;
-            }
-
-            if (H4CB.Checked)
-            {
-                count = count + hashes.H4Maps.Count;
-            }
-
-            return count;
-        }
         #region Drag
         private void ValidationForm_MouseMove(object sender, MouseEventArgs e)
         {
@@ -340,7 +182,7 @@ namespace MCCMapPacker.Forms
             }
         }
 
-        private void HashList_MouseMove(object sender, MouseEventArgs e)
+        private void HashListView_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
@@ -354,6 +196,15 @@ namespace MCCMapPacker.Forms
         {
             main.Show();
         }
+
+        private void HashList_DrawItem(object sender, DrawItemEventArgs e)
+        {
+            e.DrawBackground();
+            Graphics g = e.Graphics;
+            ListBox lb = (ListBox)sender;
+            g.DrawString(lb.Items[e.Index].ToString(), e.Font, new SolidBrush(Color.White), new PointF(e.Bounds.X, e.Bounds.Y));
+        }
+
     }
 
 }

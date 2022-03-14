@@ -14,12 +14,13 @@ using Newtonsoft.Json;
 using System.IO;
 using Ionic.Zip;
 using System.Diagnostics;
+using static MCCMapPacker.Objects.Helpers;
 
 namespace MCCMapPacker.Forms
 {
     public partial class CreatePackForm : Form
     {
-        private StockMapHashes hashes;
+        private StockMapData data;
 
         private MapReplaceData mapReplaceData;
 
@@ -30,7 +31,11 @@ namespace MCCMapPacker.Forms
         {
             InitializeComponent();
 
-            hashes = JsonConvert.DeserializeObject<StockMapHashes>(File.ReadAllText("StockMaps.Json"));
+            if(StockMapDataExists())
+            {
+                data = GetStockMapData();
+            }
+            
 
             mapReplaceData = new MapReplaceData();
 
@@ -63,58 +68,13 @@ namespace MCCMapPacker.Forms
 
         private void UpdateMapCombo(Games g)
         {
-            switch (g)
+            List<MapInfo> found = data.maps.FindAll(MapInfo => MapInfo.Game == g);
+
+            foreach(MapInfo m in found.ToArray())
             {
-                case Games.HaloReach:
-                    MapCombo.Items.Clear();
-                    foreach (MapData map in hashes.ReachMaps)
-                    {
-                        MapCombo.Items.Add(map.MapNameUI);
-                    }
-                    break;
-                case Games.Halo1:
-                    MapCombo.Items.Clear();
-                    foreach (MapData map in hashes.CEMaps)
-                    {
-                        MapCombo.Items.Add(map.MapNameUI);
-                    }
-                    break;
-                case Games.Halo2C:
-                    MapCombo.Items.Clear();
-                    foreach (MapData map in hashes.H2CMaps)
-                    {
-                        MapCombo.Items.Add(map.MapNameUI);
-                    }
-                    break;
-                case Games.Halo2A:
-                    MapCombo.Items.Clear();
-                    foreach (MapData map in hashes.H2AMaps)
-                    {
-                        MapCombo.Items.Add(map.MapNameUI);
-                    }
-                    break;
-                case Games.Halo3:
-                    MapCombo.Items.Clear();
-                    foreach (MapData map in hashes.H3Maps)
-                    {
-                        MapCombo.Items.Add(map.MapNameUI);
-                    }
-                    break;
-                case Games.HaloODST:
-                    MapCombo.Items.Clear();
-                    foreach (MapData map in hashes.ODSTMaps)
-                    {
-                        MapCombo.Items.Add(map.MapNameUI);
-                    }
-                    break;
-                case Games.Halo4:
-                    MapCombo.Items.Clear();
-                    foreach (MapData map in hashes.H4Maps)
-                    {
-                        MapCombo.Items.Add(map.MapNameUI);
-                    }
-                    break;
+                MapCombo.Items.Add(m.MapNameUI);
             }
+            
             MapCombo.SelectedIndex = 0;
         }
 
@@ -255,7 +215,7 @@ namespace MCCMapPacker.Forms
                         }
 
                         ZipEntry zi = z.AddFile(fp);
-                        zi.FileName = GetMapGamePathFromEnum(g) + @"\" + hashes.GetMapNameFromFriendly(g, rn);
+                        zi.FileName = GetMapGamePathFromEnum(g) + @"\" + data.MapFileFromFriendly(g, rn);
                     }
                     z.Save(Path.Combine(outputDir, PackName.Text + ".zip"));
                 }            
