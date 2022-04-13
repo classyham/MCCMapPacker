@@ -1,1543 +1,1543 @@
 {
-  "version": "2021.11.11.144019.2",
+  "version": "2022.03.15.152638.2",
   "maps": [
     {
       "MapNameUI": "Pillar of Autumn",
       "MapFileName": "a10.map",
-      "MapHash": "7D9C2E7DEDC1759753B632914F7D96B9",
+      "MapHash": "B40634835CA6726138E13FCBFCC45FB9",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Halo",
       "MapFileName": "a30.map",
-      "MapHash": "B4BF8C29B26B6C4455714396B306FF75",
+      "MapHash": "060F37802B9D447DE3A36CBBC1467798",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Truth and Reconciliation",
       "MapFileName": "a50.map",
-      "MapHash": "80FB5E49D9DC1D0D18BFBCEDA70F3215",
+      "MapHash": "DB0D63434A87987D457CA5B3BCF0A583",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "The Silent Cartographer",
       "MapFileName": "b30.map",
-      "MapHash": "09DC7903A5E45F00E6003C71673DD876",
+      "MapHash": "312A9BDA66342291FE74773DF8E69C81",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Assault on the Control Room",
       "MapFileName": "b40.map",
-      "MapHash": "8E08A8FD20FF86560B4F620B16BA7054",
+      "MapHash": "421DAB42D4B1B1F51CF925C6D8FEC060",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Beaver Creek",
       "MapFileName": "beavercreek.map",
-      "MapHash": "CD2F4561E6E3E07E101F00B219B70682",
+      "MapHash": "94BA10D577726259963AA826F5730B69",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Blood Gulch",
       "MapFileName": "bloodgulch.map",
-      "MapHash": "EBB3CE617E7DD8CBF1477EF122D58CF8",
+      "MapHash": "F2BE3BA7CC38F97D3E9C3DC7E71B4C17",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Boarding Action",
       "MapFileName": "boardingaction.map",
-      "MapHash": "6A5E9EBF40CC8463595FC3BB687CCDD1",
+      "MapHash": "1D9D12966D044172782B69AF95B12E5E",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "343 Guilty Spark",
       "MapFileName": "c10.map",
-      "MapHash": "774DDA4760A0DFEA66664A212FC66A01",
+      "MapHash": "04BF64C9F8E772CDADCF12805BF73A59",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "The Library",
       "MapFileName": "c20.map",
-      "MapHash": "4AB27B26A9807B799D6CB8747DBA83DC",
+      "MapHash": "C9F6043F6E805D848A83EEAF5A265075",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Two Betrayals",
       "MapFileName": "c40.map",
-      "MapHash": "A08D5EB8B307AC2869CA9585E1EE7BF8",
+      "MapHash": "ED20F3A8E74F68FBFE8AB158FBA36C79",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Derelict",
       "MapFileName": "carousel.map",
-      "MapHash": "9E29986DFAD4CFB16DDE244D743DC9D2",
+      "MapHash": "18A5C9D30DE76119A33BA15D4C1DF786",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Chill Out",
       "MapFileName": "chillout.map",
-      "MapHash": "29447A3DA7E9614D94C47436C591966C",
+      "MapHash": "43D46AF4F2B930A3AB81657B385C6639",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Keyes",
       "MapFileName": "d20.map",
-      "MapHash": "AB67DA77A7CC2BED78D99BD3A5BC0A9C",
+      "MapHash": "3502D0BF499AF350DA636E47BF823E12",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "The Maw",
       "MapFileName": "d40.map",
-      "MapHash": "A4AA4C84E51E8F86D4180D5AEB81B8A3",
+      "MapHash": "E0A559E276C6D40AAB3C46DDE53EC6C2",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Damnation",
       "MapFileName": "damnation.map",
-      "MapHash": "3C0A613001A797A220794507AF15D2B3",
+      "MapHash": "C035BE1CE0153E46E65462842C9420DD",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Danger Canyon",
       "MapFileName": "dangercanyon.map",
-      "MapHash": "5B4546143DF549BA3C4819C74A84BE18",
+      "MapHash": "CAC41DCB2AFE4B4015C7DCCF39A60E2C",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Death Island",
       "MapFileName": "deathisland.map",
-      "MapHash": "E7BC7AAB21872C2672A4FEBA7F1CA061",
+      "MapHash": "A44564E5E329A725687BDA460EC5867F",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Gephyrophobia",
       "MapFileName": "gephyrophobia.map",
-      "MapHash": "371CB9AC9778056B14334C4A1C4C0407",
+      "MapHash": "0DDE39936ABC027CB8FAD02124757CD0",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Hang 'em High",
       "MapFileName": "hangemhigh.map",
-      "MapHash": "D70C273AEAC8AB3B8005A53E949B7BBD",
+      "MapHash": "C939709140C25EB3B82A97CDECC8475D",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Ice Fields",
       "MapFileName": "icefields.map",
-      "MapHash": "C2B25E8F3AED783B3BD76C3CCF265A03",
+      "MapHash": "8233BBC2E073B933C1B5723C10648D23",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Infinity",
       "MapFileName": "infinity.map",
-      "MapHash": "A080B03849018F3832E35C96452621C3",
+      "MapHash": "CACC9611473D054716989607B8BE751C",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Longest",
       "MapFileName": "longest.map",
-      "MapHash": "9D885F18DEA4730FF703CAE34644FA55",
+      "MapHash": "8ECB82DDE32C23F82699BCCBB06E0DEC",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Prisoner",
       "MapFileName": "prisoner.map",
-      "MapHash": "127BF47AD508ABC89BAF75E2E5696A45",
+      "MapHash": "6103F50B878DD577541ED0BD17900AE9",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Chiron TL34",
       "MapFileName": "putput.map",
-      "MapHash": "5B54DCA152285F2EE103C845EB6FA693",
+      "MapHash": "F6E6EC4CFBE77D00640CA5B400C558FB",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Rat Race",
       "MapFileName": "ratrace.map",
-      "MapHash": "DD812048A15711E1A5EE2BD9984BA1B4",
+      "MapHash": "59135038043B50173A00A7E5D38230B1",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Sidewinder",
       "MapFileName": "sidewinder.map",
-      "MapHash": "FFCA340D27E9138C333CFD0DB875EACA",
+      "MapHash": "C65C0F7BD261C069F535C0FB850361F9",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Timberland",
       "MapFileName": "timberland.map",
-      "MapHash": "9D95E4BB10D0E09E425CA00077AD4829",
+      "MapHash": "81085B6595564D46793309B8AA506CFE",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "Wizard",
       "MapFileName": "wizard.map",
-      "MapHash": "1103E64F69A5C67DA722915521B6FEF7",
+      "MapHash": "7E40A0CED4652F050C06E721DB4A5DCD",
       "MapPath": "\\halo1\\maps\\",
       "Game": 1
     },
     {
       "MapNameUI": "The Heretic",
       "MapFileName": "00a_introduction.map",
-      "MapHash": "085FCBB153233D2D9C87932D3673CEEC",
+      "MapHash": "73D0B485A1F5DDDD559D9AB64E3DD486",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "The Armory",
       "MapFileName": "01a_tutorial.map",
-      "MapHash": "AA378FD72A7E32FD16A7BDD9AB034621",
+      "MapHash": "814FC9839F6A9C4AB1CE6082D0340EC1",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Cairo Station",
       "MapFileName": "01b_spacestation.map",
-      "MapHash": "218F36F7CD7E7F47B6A157CBC897CB9A",
+      "MapHash": "EFDA8C08B1974038FDA7547A930FA081",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Outskirts",
       "MapFileName": "03a_oldmombasa.map",
-      "MapHash": "03F2E357CF6AA0E081AEE5B7FB6A6838",
+      "MapHash": "9829F60651D0C11C021550A26F39222F",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Metroplis",
       "MapFileName": "03b_newmombasa.map",
-      "MapHash": "0DBD3BE5F958C1E4F6870F9E4C5B2AEA",
+      "MapHash": "883229A34C51CDBA5015A67CBF2D5EAD",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "The Arbiter",
       "MapFileName": "04a_gasgiant.map",
-      "MapHash": "624FD639011DA7301026DEA433669108",
+      "MapHash": "65078E9C1C8AD4009FB9FC06F8A218C6",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "The Oracle",
       "MapFileName": "04b_floodlab.map",
-      "MapHash": "B6C3FD33F667D0C109E7DF59A237F918",
+      "MapHash": "6DE164FF9ED6A4B858F0471A7C364C1F",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Delta Halo",
       "MapFileName": "05a_deltaapproach.map",
-      "MapHash": "F40D465E7D2F822452AC9B5CE0CD2C92",
+      "MapHash": "FBE6835D1EF59C7CA6A53B1EC4697358",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Regret",
       "MapFileName": "05b_deltatowers.map",
-      "MapHash": "A562F1D990D5A4E8A93A0947293659C0",
+      "MapHash": "76BBC07390D0518AE6BE905F84CE6702",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Sacred Icon",
       "MapFileName": "06a_sentinelwalls.map",
-      "MapHash": "8519C6D97744143797F34D11CE50ED6A",
+      "MapHash": "A77AB43C51623527E1F67BD104896D69",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Quaratine Zone",
       "MapFileName": "06b_floodzone.map",
-      "MapHash": "0B0250170E11E0FF3395E960052CA965",
+      "MapHash": "003E0AA9166E449D9B1CCF743B6B7ACE",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Gravemind",
       "MapFileName": "07a_highcharity.map",
-      "MapHash": "3382F36806A5DE65D04170E6BE010FA8",
+      "MapHash": "8A979B972E43A6A8C7D812B34334C6B4",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Uprising",
       "MapFileName": "07b_forerunnership.map",
-      "MapHash": "0709819D3CF6708823A25B9C4CC5E52A",
+      "MapHash": "DA79AAB8F12A58BE1182E73D856FDFD8",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "High Charity",
       "MapFileName": "08a_deltacliffs.map",
-      "MapHash": "EC6BAF9C7EFB913FB025A4A7D955D10D",
+      "MapHash": "6574CAB95F1A3BC49F991A1AEE281267",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "The Great Journey",
       "MapFileName": "08b_deltacontrol.map",
-      "MapHash": "32C1EF11D0313B2D5DBE584E0711BF04",
+      "MapHash": "E7A2A673A1EF6972A3EB959AB0B5756B",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Ascension",
       "MapFileName": "ascension.map",
-      "MapHash": "5B9396AD99546E5719E49524788C2354",
+      "MapHash": "602BF22EED3912ABF115FD7D66659621",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Backwash",
       "MapFileName": "backwash.map",
-      "MapHash": "16B913CA977C5E5C3143DDFD6A994F5F",
+      "MapHash": "6CD6CFBC68081041414441A24C6E8582",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Beaver Creek",
       "MapFileName": "beavercreek.map",
-      "MapHash": "ACE0C14A0E359A352F42486355E3BB76",
+      "MapHash": "3E03650CACAC18D488D419CBCF106E6B",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Burial Mounds",
       "MapFileName": "burial_mounds.map",
-      "MapHash": "6AD2567830AD593B38C6F10BA9A1A245",
+      "MapHash": "91C52E5806F4F1195B59B44F2DD6D1F7",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Coagulation",
       "MapFileName": "coagulation.map",
-      "MapHash": "8BF3DB11D05A00B18571800AAE44DC6C",
+      "MapHash": "55A264960E07C67268F32652B939FC07",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Colossus",
       "MapFileName": "colossus.map",
-      "MapHash": "6111F629EA19C43266D09530BB197243",
+      "MapHash": "AB5FB00F6B00D74FAB52C8C3F9AF9EE7",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Containment",
       "MapFileName": "containment.map",
-      "MapHash": "F7031C0239193AA6E637741D7E8C3DBF",
+      "MapHash": "823AAF168D045FFAA46B74B2DD858A9F",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Ivory Tower",
       "MapFileName": "cyclotron.map",
-      "MapHash": "B8381CC2771C987E3BA573521BC109B4",
+      "MapHash": "8FC50CB0B39CD27CF3547887B67A0C4B",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Sanctuary",
       "MapFileName": "deltatap.map",
-      "MapHash": "14A0E85F11B75FE2AFE1484DAE351C1B",
+      "MapHash": "11DF96CCC0CEA197DA7C7532EA5B5B37",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Desolation",
       "MapFileName": "derelict.map",
-      "MapHash": "E7CBEDAE8031246FB0009B398BBD003A",
+      "MapHash": "B156B50B34447D49F036F99F081C5B70",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Relic",
       "MapFileName": "dune.map",
-      "MapHash": "AD269DBA05A9FFC7AFE919D47A3938A9",
+      "MapHash": "AB2FDF81FBBC1446F7863D7384AD9117",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Elongation",
       "MapFileName": "elongation.map",
-      "MapHash": "D2DC06329A76D2559DA063DC8B206457",
+      "MapHash": "967DEB15B982CF9CA45E4D94723AAD45",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Foundation",
       "MapFileName": "foundation.map",
-      "MapHash": "C6BA3C671838F4384AECD0E4D1962150",
+      "MapHash": "C1463471EF7C489508AD4CC3CFA610AC",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Gemini",
       "MapFileName": "gemini.map",
-      "MapHash": "1B3D8C9C0D2EF53D70312664C19D2A5D",
+      "MapHash": "ABEC0FA281FC0C74CA1970334E9BE35F",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Headlong",
       "MapFileName": "headlong.map",
-      "MapHash": "D4EE02BBD8DCD3E5F9E194A6F9B4D38B",
+      "MapHash": "1D6FCC58C8D1CDC21D2BED9AB2881217",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Tombstone",
       "MapFileName": "highplains.map",
-      "MapHash": "0425AE8A4259258797EDA40340F9B5A1",
+      "MapHash": "A7BB03E7DFF991B353A453DC1792C02C",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Lockout",
       "MapFileName": "lockout.map",
-      "MapHash": "21668F975F04C4375D5F520F00B24D04",
+      "MapHash": "E8724B49BD3A5E42B32D60496078CD4D",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Midship",
       "MapFileName": "midship.map",
-      "MapHash": "14463360F4593E991D3CC4694BBF4667",
+      "MapHash": "53436928CE19E05C15FA4071C2374F34",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Uplift",
       "MapFileName": "needle.map",
-      "MapHash": "D03ED729213F2D1C44FED8E0590252C4",
+      "MapHash": "939464F32ADA2472C00EA0F61E6A9EB6",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "District",
       "MapFileName": "street_sweeper.map",
-      "MapHash": "0DE0317D27FA1E8E3B27D36D9B7A2831",
+      "MapHash": "D44101CC6BD9169A616A89833E2A8431",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Terminal",
       "MapFileName": "triplicate.map",
-      "MapHash": "9E253EEA11EDC36B216F92917EA1505A",
+      "MapHash": "E39ACAEB97F8E5E3753D0C53E5D68C79",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Turf",
       "MapFileName": "turf.map",
-      "MapHash": "D4E2685C5C526C382407176A13DB9962",
+      "MapHash": "543BA15444887D1FA068407E89188D39",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Warlock",
       "MapFileName": "warlock.map",
-      "MapHash": "813E88F3C4409FDCD78BA4FD06B9C64C",
+      "MapHash": "78CF69C0C1565B86D42EE337EE8B14DD",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Waterworks",
       "MapFileName": "waterworks.map",
-      "MapHash": "96338A5DC3D878548F1D3BBCC82BD8C3",
+      "MapHash": "D111D3386E2012EBD84D9FE0ECB67B8A",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Zanzibar",
       "MapFileName": "zanzibar.map",
-      "MapHash": "A81D2C6ACFAC51D64AAF82D21818E17E",
+      "MapHash": "12CACAF6EB964DF1A984941CBD4D4E3A",
       "MapPath": "\\halo2\\h2_maps_win64_dx11\\",
       "Game": 2
     },
     {
       "MapNameUI": "Zenith",
       "MapFileName": "ca_ascension.map",
-      "MapHash": "063CDE3FE06BCF6A1344D8BD5B4C4E5E",
+      "MapHash": "BB16BBF638D613C9DC7DA6352DD2C730",
       "MapPath": "\\groundhog\\maps\\",
       "Game": 3
     },
     {
       "MapNameUI": "BloodLine",
       "MapFileName": "ca_coagulation.map",
-      "MapHash": "D5A28F24CCBFAC982A730299C804EAEB",
+      "MapHash": "9D6859845900181869F0656A3FCDF56B",
       "MapPath": "\\groundhog\\maps\\",
       "Game": 3
     },
     {
       "MapNameUI": "Skyward",
       "MapFileName": "ca_forge_skybox01.map",
-      "MapHash": "3A6746B0A58B2B2B024A93B49F0236BA",
+      "MapHash": "70C71AAD62E72DD2AFE92F6C55E41964",
       "MapPath": "\\groundhog\\maps\\",
       "Game": 3
     },
     {
       "MapNameUI": "Nebula",
       "MapFileName": "ca_forge_skybox02.map",
-      "MapHash": "0A19D1EBA424430C0EEFB1108DEA0159",
+      "MapHash": "2A5B7A0C17C66A5D3EA2F0E6950A0526",
       "MapPath": "\\groundhog\\maps\\",
       "Game": 3
     },
     {
       "MapNameUI": "Awash",
       "MapFileName": "ca_forge_skybox03.map",
-      "MapHash": "E829EF2333EACD0BB2DA75C254D8B4AF",
+      "MapHash": "5702DE027279DB3AAF59A167D601C5C5",
       "MapPath": "\\groundhog\\maps\\",
       "Game": 3
     },
     {
       "MapNameUI": "Lockdown",
       "MapFileName": "ca_lockout.map",
-      "MapHash": "083A0060540062E4F32CC5BEDADA1E83",
+      "MapHash": "2886B77038CBFFC454EDFB1701C42D94",
       "MapPath": "\\groundhog\\maps\\",
       "Game": 3
     },
     {
       "MapNameUI": "Remnant",
       "MapFileName": "ca_relic.map",
-      "MapHash": "3746B86D256D2EA95F68FCF8647C4DBA",
+      "MapHash": "00368F53F65905F5030ED5A6A687772D",
       "MapPath": "\\groundhog\\maps\\",
       "Game": 3
     },
     {
       "MapNameUI": "Shrine",
       "MapFileName": "ca_sanctuary.map",
-      "MapHash": "9B2141D711513F8E0A0A3C688FD76A0F",
+      "MapHash": "4C07228C0BF1B05CD5E7ED72F46FF123",
       "MapPath": "\\groundhog\\maps\\",
       "Game": 3
     },
     {
       "MapNameUI": "Warlord",
       "MapFileName": "ca_warlock.map",
-      "MapHash": "76665FD4669D267488B9661B74B17A65",
+      "MapHash": "15EEEE9CEA8883F60B2140E8DD104130",
       "MapPath": "\\groundhog\\maps\\",
       "Game": 3
     },
     {
       "MapNameUI": "Stonetown",
       "MapFileName": "ca_zanzibar.map",
-      "MapHash": "A5950CB45B45462B65653E01282B3A2D",
+      "MapHash": "E056C9BB9BC548971CD66A897BE1FAD1",
       "MapPath": "\\groundhog\\maps\\",
       "Game": 3
     },
     {
       "MapNameUI": "Arrival",
       "MapFileName": "005_intro.map",
-      "MapHash": "6CFC13DCFC4081233A3C22FD07744549",
+      "MapHash": "18A59B3F8C34C28516EDBA15D2970F91",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Sierra 117",
       "MapFileName": "010_jungle.map",
-      "MapHash": "94346DE031436EC2066E58B445D32863",
+      "MapHash": "D93C0C06BC07AAEF23033AE613994CE6",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Crow's Nest",
       "MapFileName": "020_base.map",
-      "MapHash": "B153FB87778ED836BE4300D0B3D96CC9",
+      "MapHash": "82758B95EA343F0CB76011F00D71D3D0",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Tsavo Highway",
       "MapFileName": "030_outskirts.map",
-      "MapHash": "3F2117AF845CB36E9E7FA9909BE0EC05",
+      "MapHash": "6D95815C9E9975FDA3DB7E9D9C9CEED2",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "The Storm",
       "MapFileName": "040_voi.map",
-      "MapHash": "7D0DE9867E58718167E741C8A6ED0445",
+      "MapHash": "09624D41EB4E932645FEA338EBFEEC6E",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Floodgate",
       "MapFileName": "050_floodvoi.map",
-      "MapHash": "93404BEDD2145329C7B2E1374C3D912F",
+      "MapHash": "E094ED5F1F07D9E57DFF457F2667F1DC",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "The Ark",
       "MapFileName": "070_waste.map",
-      "MapHash": "D773223378F66DDE88D30C62814DF433",
+      "MapHash": "BF2FA96C5969696FCA28EE00D49E279D",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "The Covenant",
       "MapFileName": "100_citadel.map",
-      "MapHash": "57F6A6B4FBF3F362B7306D34CBB8207E",
+      "MapHash": "EFB900956F64F26D5302A102A661C393",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Cortana",
       "MapFileName": "110_hc.map",
-      "MapHash": "FC7B2BB1ADE2463DCF88E58FA72E95F6",
+      "MapHash": "9AFFC157516FEADB6BFAB78664ACB83B",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Halo",
       "MapFileName": "120_halo.map",
-      "MapHash": "EA23119A34FFB05E83AC51D5278BFAC3",
+      "MapHash": "305FE5AD7C8DEE0B5D13CB5E5C86F1FC",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Epilogue",
       "MapFileName": "130_epilogue.map",
-      "MapHash": "0CEC3F752164AA759236F5CFB44C246A",
+      "MapHash": "49713539097F1ACCD64A6D47C4A10235",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Rat's Nest",
       "MapFileName": "armory.map",
-      "MapHash": "1C3151011D83C28EE55BE5DA12E1715F",
+      "MapHash": "63888EF8567FDB4403C0FD1C11801DDB",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Standoff",
       "MapFileName": "bunkerworld.map",
-      "MapHash": "6E7F07E1DD1817C26988DF246244FA78",
+      "MapHash": "CC59DE28846FC6E31DB8B8F6B206824F",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Narrows",
       "MapFileName": "chill.map",
-      "MapHash": "ADF627456B8F92F7BF7D5C992B936207",
+      "MapHash": "C71708CEFF2BC97F8DDB3DCEA99775DB",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Cold Storage",
       "MapFileName": "chillout.map",
-      "MapHash": "F7386DB6D1652755B68C6BA846931EBA",
+      "MapHash": "7D5425B481B71E05705890BE6B9BDE4A",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Construct",
       "MapFileName": "construct.map",
-      "MapHash": "F50BA0C4D06831C21AE2C94489AB5861",
+      "MapHash": "6F51E374904E500E30749043A90840EC",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "The Pit",
       "MapFileName": "cyberdyne.map",
-      "MapHash": "E19AFEEAC8B6A2470FAD36F21D9AECF1",
+      "MapHash": "614986060676D0F7A4B0C81D6029A666",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "High Ground",
       "MapFileName": "deadlock.map",
-      "MapHash": "119DF6BEF8F5A12A9B4DF6B6E84C8A71",
+      "MapHash": "4E15AC81CFA364AA8B22767650BD6794",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Assembly",
       "MapFileName": "descent.map",
-      "MapHash": "658118691A3193125FFE16CA2B13A427",
+      "MapHash": "613698AFA49FA2ECCEA3F5FD648F10D3",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Longshore",
       "MapFileName": "docks.map",
-      "MapHash": "996A2B7070900BBDCE7D69BE2402E031",
+      "MapHash": "49B9C122E22EE32AB49265B567BFB20D",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Citadel",
       "MapFileName": "fortress.map",
-      "MapHash": "57BC4485FDF72C46F39DC94A51899681",
+      "MapHash": "AABBF3C25ACCED217ADB45DAABC0FFE8",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Ghost Town",
       "MapFileName": "ghosttown.map",
-      "MapHash": "8A48AA5FB3D2016B0911E987523D381F",
+      "MapHash": "214F6ABC31AF22C39FBED4F594DDA8BA",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Guardian",
       "MapFileName": "guardian.map",
-      "MapHash": "B080B7F836EC4223864C0D4F03CEC356",
+      "MapHash": "12582B3044F5DC15D53D9881F365B6C2",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Isolation",
       "MapFileName": "isolation.map",
-      "MapHash": "409141B3FB0C9E31B6FF99FCD906E51A",
+      "MapHash": "8F08BF80712F97822A944EDA62C80EFF",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Blackout",
       "MapFileName": "lockout.map",
-      "MapHash": "232D516A15A68D6620F0513B693F9112",
+      "MapHash": "FAAA9799B47638AC5F078180F9D306E2",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Heretic",
       "MapFileName": "midship.map",
-      "MapHash": "223B6FBBCC3B535E99B10C7509A4CAD5",
+      "MapHash": "60D552CC1E8F38FED49A1A354193BB54",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Valhalla",
       "MapFileName": "riverworld.map",
-      "MapHash": "D3B4145287E5CE80AAE4DBE1813EEB41",
+      "MapHash": "B277B3BB2028E66E90815425256FB0D3",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Edge",
       "MapFileName": "s3d_edge.map",
-      "MapHash": "9FDB54FB10120AC7240F1344C7F46C83",
+      "MapHash": "3D2038504108D5CCD517D8F977456C00",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Icebox",
       "MapFileName": "s3d_turf.map",
-      "MapHash": "55B2404550194FC8A874622124778FED",
+      "MapHash": "E9F4648318EBC095DB40F84C0FE3139E",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Waterfall",
       "MapFileName": "s3d_waterfall.map",
-      "MapHash": "4F0EEDF93708EBCCF4C0F6D6771F00C4",
+      "MapHash": "7414A29F7DB56AAC823FAE1B3F64C792",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Epitaph",
       "MapFileName": "salvation.map",
-      "MapHash": "7721145D8E6F68B2F284EAF6AD064784",
+      "MapHash": "AF9134971C9C1A5F1916C83C053E1F6A",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Sandbox",
       "MapFileName": "sandbox.map",
-      "MapHash": "1CC21208C1CDB8E18F1D04AD7C6BF31F",
+      "MapHash": "06622CA5E96769ECEF092FEEE7BAD86C",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Sandtrap",
       "MapFileName": "shrine.map",
-      "MapHash": "D68DAA9ECCBD975EF2E4CD2A3042E594",
+      "MapHash": "BB1B2FC0F812B215EA93471FC195756B",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Avalanche",
       "MapFileName": "sidewinder.map",
-      "MapHash": "EE6ADD0BE9BBD78BBB005072ED8A36EC",
+      "MapHash": "DB65FFB9D7F8FD4FC2D95AF5E2299546",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Snowbound",
       "MapFileName": "snowbound.map",
-      "MapHash": "036E33F8CA71DE89F46B3F535909D3C4",
+      "MapHash": "A7D33F28136AC5BEC09E31A27E77BE44",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Orbital",
       "MapFileName": "spacecamp.map",
-      "MapHash": "2EC26ED619B02377518DBCF7526A8CB8",
+      "MapHash": "98C53FC8F88372D9DA668A6A9D9F7093",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Foundry",
       "MapFileName": "warehouse.map",
-      "MapHash": "8D32D1C0C44EFC675F0C7F4C0A635387",
+      "MapHash": "0AF75691EC4BD0F6FCD7D5ED101D3ACE",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Last Resort",
       "MapFileName": "zanzibar.map",
-      "MapHash": "F2978EC47B87BC938B1A50F847417787",
+      "MapHash": "9CEBD39D4EF8A2A973B19FEB59689A7B",
       "MapPath": "\\halo3\\maps\\",
       "Game": 4
     },
     {
       "MapNameUI": "Prepare To Drop",
       "MapFileName": "c100.map",
-      "MapHash": "11EF4619296C0E8884865D1932256FC7",
+      "MapHash": "6AD2BB0272B1726AFDB721AB2E0B632E",
       "MapPath": "\\halo3odst\\maps\\",
       "Game": 5
     },
     {
       "MapNameUI": "Coastal Highway (Epilogue)",
       "MapFileName": "c200.map",
-      "MapHash": "78D46CA1F286A3E8A24D224967E59822",
+      "MapHash": "3AA93D58FD4CA1E73A9C25AC13433547",
       "MapPath": "\\halo3odst\\maps\\",
       "Game": 5
     },
     {
       "MapNameUI": "Mombasa Streets | Crater (Night)",
       "MapFileName": "h100.map",
-      "MapHash": "D6118886D1BB0D1B4085A723852BA1BF",
+      "MapHash": "FDFFEE15C9B0131C49D4F0AB943B64D1",
       "MapPath": "\\halo3odst\\maps\\",
       "Game": 5
     },
     {
       "MapNameUI": "Data Hive | Chasm Ten",
       "MapFileName": "L200.map",
-      "MapHash": "F4FF519D22C117C75B42AD3C16F7630F",
+      "MapHash": "2B6647CBCB0AB3D8FC00A7A915BEF693",
       "MapPath": "\\halo3odst\\maps\\",
       "Game": 5
     },
     {
       "MapNameUI": "Coastal Highway | Last Exit",
       "MapFileName": "l300.map",
-      "MapHash": "45CDAA0EEEEE46D8CC3BDCAE6D3FCB2D",
+      "MapHash": "E3B1885152FD470A41670F61789198B9",
       "MapPath": "\\halo3odst\\maps\\",
       "Game": 5
     },
     {
       "MapNameUI": "Tayari Plaza | Crater",
       "MapFileName": "sc100.map",
-      "MapHash": "8B3AF84DF3A283BE63E63DE648ADF01D",
+      "MapHash": "2D139BCF2D94EB6B438389B80DAE9F72",
       "MapPath": "\\halo3odst\\maps\\",
       "Game": 5
     },
     {
       "MapNameUI": "Uplift Reserve | Lost Platoon",
       "MapFileName": "sc110.map",
-      "MapHash": "BE4D5BDC3297BD08DC41B7E0E7D40302",
+      "MapHash": "61CE690923583B42C524EF65E06DA72E",
       "MapPath": "\\halo3odst\\maps\\",
       "Game": 5
     },
     {
       "MapNameUI": "Kizingo Boulevard | Rally Point",
       "MapFileName": "sc120.map",
-      "MapHash": "CE34D2A85D9D26524DAF1ADAE742931E",
+      "MapHash": "C5D03AB9BE799067EE591C833E2F5F22",
       "MapPath": "\\halo3odst\\maps\\",
       "Game": 5
     },
     {
       "MapNameUI": "ONI Alpha Site | Security Zone | Alpha Site",
       "MapFileName": "sc130.map",
-      "MapHash": "5D8744A1B9F01FDBBB3981DA34A26B03",
+      "MapHash": "4216310926913628B2B966C5C15AB603",
       "MapPath": "\\halo3odst\\maps\\",
       "Game": 5
     },
     {
       "MapNameUI": "NMPD HQ | Windward",
       "MapFileName": "sc140.map",
-      "MapHash": "7C15B83C902BE2A31EBDF99202A1B23B",
+      "MapHash": "51879B31C556AF2EB18023D9299D77B8",
       "MapPath": "\\halo3odst\\maps\\",
       "Game": 5
     },
     {
       "MapNameUI": "Kikowani Station",
       "MapFileName": "sc150.map",
-      "MapHash": "FFBB3B68E7B3ED6F2854DAB83D4FA37B",
+      "MapHash": "8EF6E2FDABDDA84BE9975EAC82B43AA2",
       "MapPath": "\\halo3odst\\maps\\",
       "Game": 5
     },
     {
       "MapNameUI": "Sword Base",
       "MapFileName": "20_sword_slayer.map",
-      "MapHash": "8D3C2BCA8DB483F0E1160F05B8FEF1E1",
+      "MapHash": "E84A8141C9696861AE51A0E02A0FAEEE",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Powerhouse",
       "MapFileName": "30_settlement.map",
-      "MapHash": "C241546670B4078449953AC29CF24FE7",
+      "MapHash": "AB7BBC43DCAC6459D90B800CF00A7750",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Spire",
       "MapFileName": "35_island.map",
-      "MapHash": "EA695B06D8297EA1FDDD9714232E0026",
+      "MapHash": "92AF484C5BB72E0B0F7C47E27318EEC1",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Zealot",
       "MapFileName": "45_aftship.map",
-      "MapHash": "13348950202B1E04F5AA84E3DBD04FE4",
+      "MapHash": "C3625AAA36C7A638F85FCEB02F9F7C82",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Countdown",
       "MapFileName": "45_launch_station.map",
-      "MapHash": "25C91034DE77F03B79DC3E436C648B60",
+      "MapHash": "EDA1ECE49B350F2E84CBCED55543BF29",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Boardwalk",
       "MapFileName": "50_panopticon.map",
-      "MapHash": "66D58B17CD0B02B9851401B9FEA9A9B0",
+      "MapHash": "77477A6FE16980426F8305E4EC73714B",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Reflection",
       "MapFileName": "52_ivory_tower.map",
-      "MapHash": "66FD321E10DE73B67989C3E4275812D9",
+      "MapHash": "BD452BB90F8D9AF3A61FD7F402C119AC",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Boneyard",
       "MapFileName": "70_boneyard.map",
-      "MapHash": "3CBE0E337AC63DC8ABCFA90B224C7BB1",
+      "MapHash": "04DC8D2F8DD40002EDA52149A3062AFB",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Battle Canyon",
       "MapFileName": "cex_beaver_creek.map",
-      "MapHash": "CD256CD666B474D754C6707BBAEF74F2",
+      "MapHash": "30BB612AA8D3386649258F7D7C078B43",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Penance",
       "MapFileName": "cex_damnation.map",
-      "MapHash": "67FB6A1C64ECE0562E0CC8D60BE25375",
+      "MapHash": "AD6535C141E667C2983D0195CF5FD0FC",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Installation 04",
       "MapFileName": "cex_ff_halo.map",
-      "MapHash": "97B1FB7524E5D17D54410A5B5C2E385D",
+      "MapHash": "735B4F33BF549108F3E04D0AA5E5C36A",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "High Noon",
       "MapFileName": "cex_hangemhigh.map",
-      "MapHash": "58D2AE829C0FF02AD5E95A981FB80EBF",
+      "MapHash": "B8A2D2F1BFD4DE6079B43DA974AD8F30",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Breakneck",
       "MapFileName": "cex_headlong.map",
-      "MapHash": "5DDAC1B16EC77AC5CB953A11AF61AFF0",
+      "MapHash": "078E2189E6640EF41A5C49727F4B32CA",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Solitary",
       "MapFileName": "cex_prisoner.map",
-      "MapHash": "65FDCD9DEEC1DE9991656ACACA6C5BC8",
+      "MapHash": "0390B272DD75D9E2FB68403ED52F8FC8",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Ridgeline",
       "MapFileName": "cex_timberland.map",
-      "MapHash": "C2F8BBF89871BFA55C5D321C9E7A4C6C",
+      "MapHash": "FA34A155E380AB012D9556FF5FE8310E",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Condemned",
       "MapFileName": "condemned.map",
-      "MapHash": "CA97DD694F85DE9593A2E76E0F92930D",
+      "MapHash": "8D3C303BDAF79D56B61CAF4C2DC2D87D",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Breakpoint",
       "MapFileName": "dlc_invasion.map",
-      "MapHash": "0DAA891C8F57A63AEAA4723F583F5B3A",
+      "MapHash": "BD38F42DF54281428E2C420C93DB86CE",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Tempest",
       "MapFileName": "dlc_medium.map",
-      "MapHash": "DA8FCE79C1A9CEA898E5F37711144FF5",
+      "MapHash": "3A27E25557095DCD1764BE37D78FAD76",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Anchor 9",
       "MapFileName": "dlc_slayer.map",
-      "MapHash": "B6D17F0F95CB17EC3E37A410B441EBFB",
+      "MapHash": "D8A383A44866B1C209FB6D643FE0FE68",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Overlook",
       "MapFileName": "ff10_prototype.map",
-      "MapHash": "5447B36AE620B034C2CCFCB022AB4628",
+      "MapHash": "D25E0BACA9065D19632E9D0C2BB8FCC5",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Courtyard",
       "MapFileName": "ff20_courtyard.map",
-      "MapHash": "6BE89F2545F2E199069557EAA5680570",
+      "MapHash": "CD284BF6C401A8DE29C6A684923EEDA9",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Waterfront",
       "MapFileName": "ff30_waterfront.map",
-      "MapHash": "B207FCF21DC24A7D96C08F9935B56F06",
+      "MapHash": "5EFF6DE653BD18D4FD8C7034E85DD165",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Corvette",
       "MapFileName": "ff45_corvette.map",
-      "MapHash": "45F5AC2562AB667445ACD50DFB6BAEF9",
+      "MapHash": "CAA6D18F555125935D6E3C050B01594A",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Beachhead",
       "MapFileName": "ff50_park.map",
-      "MapHash": "2798479B451737AA5DAB137809024CA4",
+      "MapHash": "EF0742461B09795980704747811AA560",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Outpost",
       "MapFileName": "ff60_airview.map",
-      "MapHash": "24735F977A98FD2F1686AD61C4894577",
+      "MapHash": "D07452BF29D880745A299E67ED9A5F15",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Glacier",
       "MapFileName": "ff60_icecave.map",
-      "MapHash": "E9D97A0DA29C8E0108A1B6F2A63169FB",
+      "MapHash": "591FDC1B3DEDDE1555794E83AE137855",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Holdout",
       "MapFileName": "ff70_holdout.map",
-      "MapHash": "AD1F87189818C305DC23858027ECF8BC",
+      "MapHash": "FF1F95538CF885D3847F402F30E42CCD",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Unearthed",
       "MapFileName": "ff_unearthed.map",
-      "MapHash": "60F3C296C955A598C3E5BFF31F0464F5",
+      "MapHash": "716325E1909EF23710645AE3EA1AE4C0",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Forge World",
       "MapFileName": "forge_halo.map",
-      "MapHash": "BC161E19E156741D29E398A65469A480",
+      "MapHash": "EAD26B4A8EEAEABCA5A34E2C97584EEB",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "NOBLE Actual",
       "MapFileName": "m05.map",
-      "MapHash": "7AA21512794B8768F93DB5EA52706724",
+      "MapHash": "F58C775DFABCBC449E4057F1E8709560",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Winter Contingency",
       "MapFileName": "m10.map",
-      "MapHash": "37102B1CAC8510BF76B564BBA31BB2B5",
+      "MapHash": "9C18B5226692BBE2AD09F880C294F7EF",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "ONI Sword Base",
       "MapFileName": "m20.map",
-      "MapHash": "944D1747FBB1BEAC80D8BF2991FE5045",
+      "MapHash": "D3AA795C488D7F67CDDE841348A3608F",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Nightfall",
       "MapFileName": "m30.map",
-      "MapHash": "D2DA11E619744F244D3D31A964E83C85",
+      "MapHash": "E57717B9A640FDCB45BFD3D2567C1DDE",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Tip of the Spear",
       "MapFileName": "m35.map",
-      "MapHash": "51D30A78A723E0E5AA3015317A09D6CC",
+      "MapHash": "8E863DC0675D6416215B7F297E389FAB",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Long Night of Solace",
       "MapFileName": "m45.map",
-      "MapHash": "9134D2DD585BD1C4C9DEBD503E699BC6",
+      "MapHash": "08F1F95C4CBF69DC6A5588978669C152",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Exodus",
       "MapFileName": "m50.map",
-      "MapHash": "FB4DB3AD46EBF056AF10E88CA8BBFACB",
+      "MapHash": "D044BDACDAAD1356250A627A0056655C",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "New Alexandria",
       "MapFileName": "m52.map",
-      "MapHash": "7DBA03CCEABCEDFAC9FA984B625A9284",
+      "MapHash": "353ECB688E17886D749A1BED0B6BF404",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "The Package",
       "MapFileName": "m60.map",
-      "MapHash": "E2E1D03BB0B737D4C9DA9288803E1ED5",
+      "MapHash": "1E5950F369CDF66D1FA463E5895795E9",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "The Pillar of Autumn",
       "MapFileName": "m70.map",
-      "MapHash": "09B9229D6E3C14A35A7C845394B93B7C",
+      "MapHash": "0F40FA0ACF98A10AF08318B3206C342A",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Credits",
       "MapFileName": "m70_a.map",
-      "MapHash": "501B7E213D4C0DCD73692D3892F5363F",
+      "MapHash": "2D838F68BDE2206859605EAC76D5430B",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Lone Wolf",
       "MapFileName": "m70_bonus.map",
-      "MapHash": "ADB791FA32734577149A737A8C0C2D3C",
+      "MapHash": "8008E3CC0448E1A808AAE5B9F993D7E1",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Highlands",
       "MapFileName": "trainingpreserve.map",
-      "MapHash": "40BC21019E8662E7444D62270052D6A3",
+      "MapHash": "29114A92BA87F0F15D12DC50B65819AE",
       "MapPath": "\\haloreach\\maps\\",
       "Game": 0
     },
     {
       "MapNameUI": "Outcast",
       "MapFileName": "ca_basin.map",
-      "MapHash": "39408FBEC9330A46FC63D01C9C713564",
+      "MapHash": "A63AE25879C547ED363D164BB8FE6D06",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Abandon",
       "MapFileName": "ca_blood_cavern.map",
-      "MapHash": "92AAC58F4CD1B5CA73B5DD23BCF72E54",
+      "MapHash": "C2E7FADE3268C8078B8913EFF3AD25A0",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Exile",
       "MapFileName": "ca_blood_crash.map",
-      "MapHash": "24660CC407625F1A96E7FCDAA2508AE1",
+      "MapHash": "73387E32C25C377E3EE87BA610BD135D",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Meltdown",
       "MapFileName": "ca_canyon.map",
-      "MapHash": "ABBD394F23213146341E52EE8F246221",
+      "MapHash": "4BE523F668B2CD5F0912137E4F8A0385",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Pitfall",
       "MapFileName": "ca_creeper.map",
-      "MapHash": "5A97916296D18CC1A32F630D92F023B0",
+      "MapHash": "3F54964B6C3B0645BE04A0D5FBE48601",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Monolith",
       "MapFileName": "ca_deadlycrossing.map",
-      "MapHash": "AA0754395AD8B3A9DF1A0C2129ED38F9",
+      "MapHash": "8BFEB26E513597B8146C75366849522A",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Vertigo",
       "MapFileName": "ca_dropoff.map",
-      "MapHash": "D25335C1A5B485E8CD06EC9C30AA9F74",
+      "MapHash": "56B1A1E36E885E753288F9EC6A121725",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Impact",
       "MapFileName": "ca_forge_bonanza.map",
-      "MapHash": "914738EF6CA327EB86ECDF28EDE10FEB",
+      "MapHash": "BD519717D00FDB9DF5E257D5629EAFDC",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Erosion",
       "MapFileName": "ca_forge_erosion.map",
-      "MapHash": "551628A0F8ACD3CA6F4EB8FC62C828C2",
+      "MapHash": "7D813499B93CCF5A4BB6091A07F06F07",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Ravine",
       "MapFileName": "ca_forge_ravine.map",
-      "MapHash": "0F973CAE81A23A9DA8F8903C49239DC8",
+      "MapHash": "CBD368E88E763A2A507369318DD646C0",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Longbow",
       "MapFileName": "ca_gore_valley.map",
-      "MapHash": "F48BFD648C1D2FBC69743D8D5195FCF9",
+      "MapHash": "27964F7F04C69A800D7193AC3DA18936",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Perdition",
       "MapFileName": "ca_highrise.map",
-      "MapHash": "A5107CD229140B2199E6078FDB373CD8",
+      "MapHash": "17F8224134EF34D352238CCEEBA17520",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Landfall",
       "MapFileName": "ca_port.map",
-      "MapHash": "B95DE1C5839B039A11B6F33BC9D36806",
+      "MapHash": "E3BC1684E7C32661310B8CC9E7C805BB",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Skyline",
       "MapFileName": "ca_rattler.map",
-      "MapHash": "2732920FA7260727DDCC698635E63F7A",
+      "MapHash": "EF1B559CC2669C64D2F9A79FC66B9601",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Vortex",
       "MapFileName": "ca_redoubt.map",
-      "MapHash": "DDCB23B20CE5449C5BD52420BBA485A0",
+      "MapHash": "4B90EF55528AD7898F180C081666DDCC",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Daybreak",
       "MapFileName": "ca_spiderweb.map",
-      "MapHash": "277E58C5653725D1BF6A086B92866EE6",
+      "MapHash": "CA414BC496646D3F3C406D6DD0C8A337",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Solace",
       "MapFileName": "ca_tower.map",
-      "MapHash": "7CB60482C24E44E7465A36CFD2B68E3D",
+      "MapHash": "6C5BA5F316AF4982EE13469C8F8041BC",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Adrift",
       "MapFileName": "ca_warhouse.map",
-      "MapHash": "328F7258548604F3E79B8B08900992EA",
+      "MapHash": "4326536C97FD73C723C268A4D0C8E656",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Infinity (Spartan Ops)",
       "MapFileName": "dlc01_engine.map",
-      "MapHash": "DF368A43D9514CB9031AB1EE2D1BEDD1",
+      "MapHash": "D0EFA3E1BAF5F67ABDE24BCE2882154F",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Lockup (Spartan Ops)",
       "MapFileName": "dlc01_factory.map",
-      "MapHash": "847F397B441A5C20354FA695C62CE5C0",
+      "MapHash": "3E6EE4BEE0266E818DA026646CAEC598",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Shatter",
       "MapFileName": "dlc_dejewel.map",
-      "MapHash": "346EF23C18FE49EDD5C2B1C8D2C0765C",
+      "MapHash": "993B3F135ECC1D3E2C7DF84F9A31D1B0",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Wreckage",
       "MapFileName": "dlc_dejunkyard.map",
-      "MapHash": "B19FE807F5AB381DB0A17049A01AEC5E",
+      "MapHash": "66B569FBF83F1244C791E94DC27E1496",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Forge Island",
       "MapFileName": "dlc_forge_island.map",
-      "MapHash": "1418E66C45974D15E99D6B4F4B4E6AB9",
+      "MapHash": "B2B5CA20EF08F9038E12B3B6B8649E69",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Control (Spartan Ops)",
       "MapFileName": "ff151_mezzanine.map",
-      "MapHash": "9033C2E100F0160EAF26D2ED1DFCA0DE",
+      "MapHash": "E27D2D06A6B86C1A87926C4D33680744",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Cyclone (Spartan Ops)",
       "MapFileName": "ff152_vortex.map",
-      "MapHash": "C761204AE8671EDBCCE8D1C38639D962",
+      "MapHash": "A06F413F26B0B6D42692FC6718D16398",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Warrens (Spartan Ops)",
       "MapFileName": "ff153_caverns.map",
-      "MapHash": "ECB72DB3307A6E000A75387840A685CF",
+      "MapHash": "A191263F5A273CFA126E385349C0A8F4",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Apex (Spartan Ops)",
       "MapFileName": "ff154_hillside.map",
-      "MapHash": "FE3B2CC782BB42AB8DAB66B46F61E647",
+      "MapHash": "C3BEF535F3066B84759B536147DB419E",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Harvester (Spartan Ops)",
       "MapFileName": "ff155_breach.map",
-      "MapHash": "7D00DD79F6448027D60DA6621B821833",
+      "MapHash": "F8C702CEBF36B1EB46D74365220D3793",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "The Gate (Spartan Ops)",
       "MapFileName": "ff81_courtyard.map",
-      "MapHash": "67DD3C0989B08DD20C85E1DBF8E1EB1E",
+      "MapHash": "AD4F2BD88B6641B3BAA359351C0015E7",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "The Cauldron (Spartan Ops)",
       "MapFileName": "ff82_scurve.map",
-      "MapHash": "DCCC65675F0F40D0F12FE4CB3CA7549A",
+      "MapHash": "B04EB5577A48CD1DFA90E1453243EAD2",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "The Refuge (Spartan Ops)",
       "MapFileName": "ff84_temple.map",
-      "MapHash": "FDD2AEC06147CCD3EBF1BB86C9EF02D7",
+      "MapHash": "4DE3D30582DFFB79FEF3684959ECD745",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Sniper Alley (Spartan Ops)",
       "MapFileName": "ff86_sniperalley.map",
-      "MapHash": "25F182DC75BDBBCD548976876F67E9FC",
+      "MapHash": "733D268FF04E18FBAEDB0A0D4F8337A2",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Quarry (Spartan Ops)",
       "MapFileName": "ff87_chopperbowl.map",
-      "MapHash": "B2E95ACF86C4E10975A2FB07E12DF31E",
+      "MapHash": "6A95766EADBF50069AC2794F9C2BCE98",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Fortress (Spartan Ops)",
       "MapFileName": "ff90_fortsw.map",
-      "MapHash": "1A4C9B093D81EE257D3E53A310222134",
+      "MapHash": "BB3C0A84DBA9F21C07EF204D7866F3F2",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Galileo Base (Spartan Ops)",
       "MapFileName": "ff91_complex.map",
-      "MapHash": "478AE01042B92A2A337CB047F226CC71",
+      "MapHash": "115055C39E1D4F4978B95EDD1C82A0B1",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Two Giants (Spartan Ops)",
       "MapFileName": "ff92_valhalla.map",
-      "MapHash": "64041E8661EA57057FC0C2341235F2F5",
+      "MapHash": "7B7497058ABE26691B7C6A1EDAA766E4",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Requiem",
       "MapFileName": "m020.map",
-      "MapHash": "38412C9FE0FA1FA21998C4E63E80F884",
+      "MapHash": "77ADB1228385CBAD4231646C5BCD749C",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Prologue",
       "MapFileName": "m05_prologue.map",
-      "MapHash": "3D8A8FDD81DA4986B19883253225A3BB",
+      "MapHash": "87F3075D187CFC2BFB1E0E2B632200FB",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Dawn",
       "MapFileName": "m10_crash.map",
-      "MapHash": "64C703D009503FC6E4455323964BA8D9",
+      "MapHash": "07343A5CCA35493E5DE6BB492EBDF3E9",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Forerunner",
       "MapFileName": "m30_cryptum.map",
-      "MapHash": "707D4DB000D670B2F8C8B58B823E0DFB",
+      "MapHash": "573DC522C2389001310BD35CB9BBE75E",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Reclaimer",
       "MapFileName": "m40_invasion.map",
-      "MapHash": "3A0F183511D5F542AE0A457840715D77",
+      "MapHash": "F6D6BB4D44F240C48F2B0EACAB5728E9",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Infinity ",
       "MapFileName": "m60_rescue.map",
-      "MapHash": "5CA840303C085B196679B90A50042D0D",
+      "MapHash": "8893AEC6FD7504246BA873974A286FD2",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Shutdown",
       "MapFileName": "m70_liftoff.map",
-      "MapHash": "08D0F1E1390876EDC5ECAF3AEC8C037F",
+      "MapHash": "D0C5411DD4066919419702B6507864DC",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Composer",
       "MapFileName": "m80_delta.map",
-      "MapHash": "579E4BDBE0AEBE77DA8DA859C387DE30",
+      "MapHash": "14BFE043DD6686D7E74682B96CEDF0B3",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Midnight",
       "MapFileName": "m90_sacrifice.map",
-      "MapHash": "237475F5CC3FF24CDB6DE9A835F6E6A6",
+      "MapHash": "C936E15375D3AA00B470CC0381CDE78E",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Epilogue",
       "MapFileName": "m95_epilogue.map",
-      "MapHash": "D30C6B01C4D79BBC003C0A66098CD555",
+      "MapHash": "23D5A3B492F466F50F5FE699E59BA0D2",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Haven",
       "MapFileName": "wraparound.map",
-      "MapHash": "F87319FA7A59AA9ED529FC1F9F77EFC5",
+      "MapHash": "244E66A52924165AD1A7D9F65A666097",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Complex",
       "MapFileName": "z05_cliffside.map",
-      "MapHash": "8E542BDA9E1502057444B1E7B91313A0",
+      "MapHash": "E2A25E213D42AC07D40D34F58CAD8E82",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Ragnarok",
       "MapFileName": "z11_valhalla.map",
-      "MapHash": "9F04AA649E92B9530DA09A55D9C1E717",
+      "MapHash": "D15B32390D9A85CCDCE45E4D13A4C943",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     },
     {
       "MapNameUI": "Harvest",
       "MapFileName": "zd_02_grind.map",
-      "MapHash": "6C23DA9FC57CF1785C3F302D71FE27D4",
+      "MapHash": "7F45D65A302230BCBC937B01573BBFA0",
       "MapPath": "\\halo4\\maps\\",
       "Game": 6
     }
